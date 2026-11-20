@@ -1,0 +1,67 @@
+{
+  "id": "sunday-girl",
+  "title": "Sunday Girl",
+  "artist": "Blondie",
+  "level": 2,
+  "order": 2,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "D",
+  "feel": "Bright eighth-note pop strum, about 126 bpm (estimate); modulates up to E",
+  "chords": {
+    "D": "D_open",
+    "A7": "A7_open",
+    "G": "G_open",
+    "A": "A_open",
+    "E": "E_open",
+    "B": "B_barre_A2",
+    "C#m": "Csharpm_barre_A4",
+    "G#m": "Gsharpm_barre_E4",
+    "F#": "Fsharp_barre_E2"
+  },
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "D | A7 | D | A7"
+    },
+    {
+      "name": "Verse (in D)",
+      "bars": "D | G A | D | G A | D",
+      "note": "Continues on the same pattern; follow the record."
+    },
+    {
+      "name": "Pre-chorus",
+      "bars": "G | D | G | E . A B",
+      "note": "The pivot: A → B sets up the new key, E. Last-bar rhythm approximate."
+    },
+    {
+      "name": "Verse (in E)",
+      "bars": "E | A B | E | A B | E | A B | C#m",
+      "note": "The E–(A B) pair repeats as long as the verse needs; the phrase ends on C♯m."
+    },
+    {
+      "name": "Bridge",
+      "bars": "G#m | F# | A | B"
+    },
+    {
+      "name": "Outro",
+      "bars": "A | E",
+      "repeat": 3,
+      "note": "Fade."
+    }
+  ],
+  "why": "**E- and A-shape barres away from open position** (C♯m, G♯m, F♯, B) and a **whole-step key change**.",
+  "hard_change": "**C♯m (A-shape, 4th fret) → G♯m (E-shape, 4th fret) → F♯ (E-shape, 2nd fret)**. The index stays at fret 4 for the first change.",
+  "theory": "D → E through V/V (A–B in the pre-chorus). In E the bridge is iii (G♯m) – II (F♯, V/V) – IV – V.",
+  "steps": [
+    "Changes alone, slowly: C♯m → G♯m → F♯ → A → B.",
+    "With the rhythm at 70% (about 88 bpm).",
+    "With the record."
+  ],
+  "caveat": "Two tabs agree on the plan; the original key is reported as D or C (a transposed edition) — this chart uses D.",
+  "sources": [
+    "https://www.guitartabsexplorer.com/blondie/sunday-girl-(Ver2)-chords",
+    "https://www.guitartabs.cc/tabs/b/blondie/sunday_girl_crd.html"
+  ]
+}

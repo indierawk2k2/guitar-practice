@@ -1,0 +1,479 @@
+{
+ "id": "level-03",
+ "number": 3,
+ "title": "Triads and inversions",
+ "status": "First draft, written before you started Level 1. Before printing, re-tune it from your Level 2 check-in sheet and practice log: pairs, targets and tempos are best guesses.",
+ "summary": "Three-note chords on the top strings: every major and minor triad in its three inversions on strings 1-2-3 (and the major ones on 2-3-4). Triads turn slash chords into something you can read, give you a second, higher voicing for every chord you know, and let a bass line move under a held chord. Street Spirit trains an even arpeggio over one-finger figure changes; While My Guitar Gently Weeps walks its bass down under Am and moves to A major for the bridge.",
+ "goals": [
+  "Play any major or minor triad in all three inversions on strings 1-2-3, and major triads on 2-3-4, from the chord name.",
+  "Choose the nearest inversion for each chord of a progression, staying within five frets.",
+  "Street Spirit with the record at 138, the picking hand never stopping.",
+  "While My Guitar Gently Weeps with the record, the descending bass clean.",
+  "A natural minor (fret 5) and A minor pentatonic box 1 in eighths at 100; the seven triads of G up strings 1-2-3."
+ ],
+ "reading": [
+  {
+   "chapter": "triads-and-inversions",
+   "note": "week 1."
+  },
+  {
+   "chapter": "scales-to-practice",
+   "note": "week 2 — positions, pentatonic boxes, natural minor."
+  },
+  {
+   "chapter": "beyond-the-key",
+   "note": "week 3 — re-read “Bass lines” and “Line clichés”."
+  },
+  {
+   "chapter": "fretboard-map",
+   "note": "week 4 — re-read the CAGED section."
+  }
+ ],
+ "songs": [
+  "street-spirit",
+  "while-my-guitar-gently-weeps",
+  "here-comes-my-baby",
+  "fake-plastic-trees",
+  "needle-in-the-hay"
+ ],
+ "song_plan": "Core: **Street Spirit** (Song day weeks 1–2) and **While My Guitar Gently Weeps** (weeks 3–4); Session D plays both. If top-string triads feel foreign in week 1, use *Here Comes My Baby* (the gentlest triad riff) for Session A's song block that week. Swap a core song for an alternate when you can already play it with the record, or when its hard change is still under 15 a minute after two weeks. Alternates, easiest first: *Here Comes My Baby* (top-string triads), *Fake Plastic Trees* (thumb-over Dmaj9/F♯), *Needle in the Hay* (F/C at 114).",
+ "weeks": 6,
+ "week_plan": [
+  {
+   "chords": "**1** G triad climb on 1-2-3: G/B 4-3-3 → G/D 7-8-7 → G 12-12-10 · **2** the Gm climb: 3-3-3 → 7-8-6 → 12-11-10 · **3** Am → Asus4 → Am → Asus2 (Street Spirit figure 1)",
+   "fretboard": "A minor pentatonic box 1, with the Am E-shape barre inside it",
+   "song": "Street Spirit: figure 1 and the intro",
+   "tempo": "SS 83 (60%) · WMGGW 70 (60%)"
+  },
+  {
+   "chords": "**1** G/D (7-8-7) ↔ C/E (9-8-8): string 2 stays at fret 8 · **2** Em → Em7 → C/E → Em (figure 2) · **3** C → Cadd9 → C → Cmaj7 (figure 3)",
+   "fretboard": "A natural minor, fret 5; then in 3rds",
+   "song": "Street Spirit: verse (Am Em C)",
+   "tempo": "SS 97 (70%) → 110 (80%)"
+  },
+  {
+   "chords": "**1** Am/F♯ (thumb, 2x2210) ↔ Fmaj7 · **2** Am → Am/G → Am/F♯ → Fmaj7 (bass walks down) · **3** G triads on strings 2-3-4: 5-4-3 → 9-7-8 → 12-12-12",
+   "fretboard": "G major whole neck: the seven triads of G up strings 1-2-3",
+   "song": "WMGGW: verses a and b",
+   "tempo": "WMGGW 81 (70%) · SS 124 (90%)"
+  },
+  {
+   "chords": "**1** A → C♯m (A4) → F♯m (E2) → C♯m (bridge) · **2** Bm (A2) ↔ E · **3** your weakest benchmark pair",
+   "fretboard": "Nearest inversion: G Em C D, then Am F C G, frets 4–10",
+   "song": "WMGGW: bridge. Both songs with the record",
+   "tempo": "WMGGW 93 → record (≈116) · SS record (138)"
+  }
+ ],
+ "chord_groups": [
+  {
+   "label": "G major triads, strings 1-2-3",
+   "note": "the climb: 4-3-3 → 7-8-7 → 12-12-10",
+   "chords": [
+    "G_tri123_inv1",
+    "G_tri123_inv2",
+    "G_tri123_root"
+   ]
+  },
+  {
+   "label": "G minor triads, strings 1-2-3",
+   "chords": [
+    "Gm_tri123_inv1",
+    "Gm_tri123_inv2",
+    "Gm_tri123_root"
+   ]
+  },
+  {
+   "label": "G major triads, strings 2-3-4",
+   "chords": [
+    "G_tri234_root",
+    "G_tri234_inv1",
+    "G_tri234_inv2"
+   ]
+  },
+  {
+   "label": "Bass lines and the songs' barres",
+   "chords": [
+    "Am_over_G",
+    "Am_over_Fsharp",
+    "Fmaj7_open",
+    "C_over_E_tri123_8",
+    "Csharpm_barre_A4"
+   ]
+  }
+ ],
+ "scales": [
+  "A_minor_pent_pos1",
+  "A_natural_minor_pos5",
+  "G_major_neck"
+ ],
+ "exit_criteria": [
+  "Benchmarks 1–6 at target in two Session Ds in a row.",
+  "Street Spirit with the record at 138, picking hand unbroken.",
+  "While My Guitar Gently Weeps with the record: the verse bass walk and the A-major bridge clean.",
+  "Any major or minor triad called from Level 2's chord-call list found on strings 1-2-3 in all three inversions within ten seconds.",
+  "A natural minor (fret 5) and A minor pentatonic box 1 in eighths at 100.",
+  "Chapters 10 and 12 read."
+ ],
+ "stuck": "Not every box ticked after 6 weeks? Move on anyway. Keep one song from this level (a core song or an easier alternate) as a 5-minute play-through in Level 4's Session D, and open every Level 4 Session A primer with your weakest pair until it reaches target.",
+ "skip_ahead": "Pass every benchmark cold (first attempt, no practice that day) in week 1's Session D? Go straight to Level 4.",
+ "drills": [
+  {
+   "id": "one-minute",
+   "title": "One-minute changes",
+   "instructions": "Timer at 1:00. One down-strum per chord, change, strum the other, as fast as you can while staying clean. Count clean landings only. Two rounds per pair; write the better count."
+  },
+  {
+   "id": "air-shape",
+   "title": "Air shapes",
+   "instructions": "Hand off the neck. Form the whole shape an inch above the strings, land all fingers at once, strum, check every string, lift. Ten per shape."
+  },
+  {
+   "id": "place-lift",
+   "title": "Place and lift",
+   "instructions": "Fret the shape, relax until the fingers just touch, press again. Twenty presses, one per click at 60, no strumming."
+  },
+  {
+   "id": "anchor",
+   "title": "Anchor hunt",
+   "instructions": "Before a new pair, say what stays (anchor), what slides along its string (guide) and what jumps. Then ten changes keeping anchors down. This level: G/D (7-8-7) ↔ C/E (9-8-8) = the string-2 note at fret 8 stays; the bass walk under Am = the Am fingers never move; triad climbs = the finger on string 1 guides."
+  },
+  {
+   "id": "change-loop",
+   "title": "Change loop",
+   "instructions": "Strum chord 1 once, change, strum chord 2 once, stop, reset. Ten clean in a row; a miss sets the count back to zero."
+  },
+  {
+   "id": "tempo-ladder",
+   "title": "Tempo ladder",
+   "instructions": "One chord per bar, four down-strums (or the song's figure). Start where it is perfect (try 50). Three clean passes: +4 bpm. A miss: −8 bpm. Write the top clean tempo in today's blank."
+  },
+  {
+   "id": "eyes-closed",
+   "title": "Eyes closed",
+   "instructions": "Make the change without looking; open your eyes after landing to check. Ten times."
+  },
+  {
+   "id": "song-loop",
+   "title": "Song loop",
+   "instructions": "Loop the two bars around the hard change in the song's own rhythm, 10 bpm under this week's tempo. Then add a bar either side. Then the whole section."
+  },
+  {
+   "id": "random-pairs",
+   "title": "Random pairs",
+   "instructions": "Write the 14 chord names from the chord page on scraps. Draw two, do one-minute changes, write the pair and count on the back of the sheet. Draw again."
+  },
+  {
+   "id": "triad-climb",
+   "title": "Triad climb",
+   "instructions": "One triad per beat at 60, up and back, saying “first, second, root”. **G on 1-2-3:** G/B 4-3-3 → G/D 7-8-7 → G 12-12-10. **Gm:** 3-3-3 → 7-8-6 → 12-11-10. **G on 2-3-4:** G 5-4-3 → G/B 9-7-8 → G/D 12-12-12. Then move each climb: A (+2 frets), F (−2: F/A 2-1-1, F/C 5-6-5, F 10-10-8)."
+  },
+  {
+   "id": "nearest-inversion",
+   "title": "Nearest inversion",
+   "instructions": "Strings 1-2-3 only, staying within frets 4–10. **G – Em – C – D:** G/D 7-8-7 → Em 9-8-7 → C/E 9-8-8 → D 7-7-5. **Am – F – C – G:** Am/C 5-5-5 → F/C 5-6-5 → C 5-5-3 → G/B 4-3-3. One per bar at 70, then two beats each. Listen to the top note move by step."
+  },
+  {
+   "id": "key-triads",
+   "title": "Triads up the key",
+   "instructions": "G major, all in first inversion on strings 1-2-3: G/B 4-3-3 · Am 5-5-5 · Bm 7-7-7 · C 9-8-8 · D 11-10-10 · Em 12-12-12 · F♯° 14-13-14 · G 16-15-15. One per beat, saying I ii iii IV V vi vii° I. (The middle four are the Reckoner riff.)"
+  },
+  {
+   "id": "bass-walk",
+   "title": "Walking bass under a held chord",
+   "instructions": "Hold the top of Am (x02210) and walk the bass: Am → Am/G♯ 4x2210 → Am/G 3x2210 → Am/F♯ 2x2210 (thumb) → Fmaj7 xx3210. One per bar at 60, then two beats each. Then D xx0232 with the bass walking D – C♯ – B – A on string 5 (open D, x4, x2, x0)."
+  },
+  {
+   "id": "triad-notes",
+   "title": "Name the triad's notes",
+   "instructions": "For each triad in this week's pairs: pick each string alone and say its job and name (“G/B: B is the 3rd, D the 5th, G the root”). Then say the inversion: lowest note root = root position, 3rd = first, 5th = second."
+  },
+  {
+   "id": "scale-3rds",
+   "title": "Scale in 3rds",
+   "instructions": "In this week's position play pairs a 3rd apart (1–3, 2–4, 3–5 …) to the top and back down. Quarters at 60 until clean, then eighths."
+  },
+  {
+   "id": "make-something",
+   "title": "Make something",
+   "instructions": "Key of Am or G. Four chords, played only as triads on strings 1-2-3 within five frets (nearest inversion), plus one bar where the bass walks under a held chord. Loop; each pass change one thing. Write the keeper (chords and frets) in Notes."
+  }
+ ],
+ "benchmarks": [
+  {
+   "name": "1 · G triad climb 1-2-3, up and back, one per beat, bpm",
+   "target": "80"
+  },
+  {
+   "name": "2 · G/D (7-8-7) ↔ C/E (9-8-8), changes/min",
+   "target": "40"
+  },
+  {
+   "name": "3 · Am/F♯ (thumb) ↔ Fmaj7, changes/min",
+   "target": "30"
+  },
+  {
+   "name": "4 · C♯m (A4) ↔ F♯m (E2), changes/min",
+   "target": "35"
+  },
+  {
+   "name": "5 · Triads up the key of G (8), one per beat, bpm",
+   "target": "72"
+  },
+  {
+   "name": "6 · A natural minor, fret 5, eighths, bpm",
+   "target": "100"
+  },
+  {
+   "name": "7 · Street Spirit with the record: stops",
+   "target": "0"
+  },
+  {
+   "name": "8 · WMGGW with the record: stops",
+   "target": "0"
+  }
+ ],
+ "checkin": [
+  "Which string set (1-2-3 or 2-3-4) still feels foreign?",
+  "Street Spirit: does the picking hand hold at 138? If not, top steady tempo:"
+ ],
+ "sessions": [
+  {
+   "name": "A",
+   "title": "Chord day",
+   "focus": "New shapes and this week's three pairs (week plan, column 1). Pair 1 is the hard one.",
+   "blocks": [
+    {
+     "minutes": 5,
+     "title": "Primer: today's shapes",
+     "instructions": "Triad climb in G and Gm at 60 (2 min). Then air shapes ×10 on both chords of pair 1. Carried a weak pair from Level 2? Change-loop it for the last minute.",
+     "drill": "triad-climb",
+     "metronome": 60
+    },
+    {
+     "minutes": 12,
+     "title": "Pair 1: the full recipe",
+     "instructions": "Anchor hunt (say what stays, slides, jumps) → slow motion ×5 → change loop to 10 clean → tempo ladder from 50, one chord per bar. A chain of chords? Ladder the whole chain. Stop at the clock.",
+     "drill": "tempo-ladder",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "minutes": 8,
+     "title": "Pairs 2 and 3",
+     "instructions": "Change loop to 10 clean on each, then one-minute changes: two rounds each. Write the better count.",
+     "drill": "one-minute",
+     "record": "Pair 2 ____ / pair 3"
+    },
+    {
+     "title": "Nearest inversion",
+     "instructions": "G – Em – C – D, then Am – F – C – G, all on strings 1-2-3 between frets 4 and 10 (frets on the drill page). One per bar.",
+     "drill": "nearest-inversion",
+     "metronome": {
+      "start": 60,
+      "target": 90
+     },
+     "minutes": 5
+    },
+    {
+     "title": "Fretboard: name the notes",
+     "instructions": "For each triad in this week's pairs, pick each string and say its note and job (root, 3rd, 5th), then the inversion.",
+     "drill": "triad-notes",
+     "scales": [
+      "G_major_neck"
+     ],
+     "minutes": 5
+    },
+    {
+     "minutes": 7,
+     "title": "Song: put pair 1 back in",
+     "instructions": "In this week's song section: song loop on the two bars with pair 1, then the section ×2 at this week's tempo.",
+     "songs": [
+      "street-spirit",
+      "while-my-guitar-gently-weeps"
+     ],
+     "drill": "song-loop"
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick A, write the minutes. In Notes: the change that felt worst today."
+    }
+   ]
+  },
+  {
+   "name": "B",
+   "title": "Fretboard day",
+   "focus": "Scales as the source of the chords: positions, 3rds, and the triads of a key (week plan, column 2).",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Air shapes ×10 on the two chords of pair 1, then the change with eyes closed ×10.",
+     "drill": "eyes-closed"
+    },
+    {
+     "title": "Triads on the map",
+     "instructions": "On the G major whole-neck diagram, find every G, B and D on strings 1–3 from fret 3 to 15. Each group of three neighbouring notes is a G triad: play and name its inversion.",
+     "scales": [
+      "G_major_neck"
+     ],
+     "record": "Inversions found",
+     "minutes": 8
+    },
+    {
+     "title": "This week's scale",
+     "instructions": "Week 1 box 1; weeks 2 and 4 A natural minor at fret 5 (week 2 in 3rds); week 3 the triads of G. Say the root at every square. Quarters at 60, then eighths on the tempo ladder.",
+     "scales": [
+      "A_minor_pent_pos1",
+      "A_natural_minor_pos5"
+     ],
+     "drill": "scale-3rds",
+     "metronome": {
+      "start": 60,
+      "target": 100
+     },
+     "minutes": 9
+    },
+    {
+     "title": "Triads up the key",
+     "instructions": "G/B 4-3-3 up to G 16-15-15, one per beat, saying the numbers. Then I–vi–IV–V (G Em C D) using only these shapes, then with the nearest inversions instead.",
+     "drill": "key-triads",
+     "metronome": {
+      "start": 60,
+      "target": 72
+     },
+     "minutes": 9
+    },
+    {
+     "title": "Song by numbers: While My Guitar Gently Weeps",
+     "instructions": "Verse a in Am: i, i/♭7, i/6, ♭VImaj7, i, ♭VII, IV, V (Am Am/G Am/F♯ Fmaj7 Am G D E). Play it ×4 at this week's WMGGW tempo saying the numbers, then verse b, where ♭III (C) replaces IV (D).",
+     "songs": [
+      "while-my-guitar-gently-weeps"
+     ],
+     "drill": "bass-walk",
+     "metronome": {
+      "start": 70,
+      "target": 116
+     },
+     "minutes": 12
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick B, write the minutes. Notes: what on the fretboard is still slow."
+    }
+   ]
+  },
+  {
+   "name": "C",
+   "title": "Song day",
+   "focus": "Longest song block: isolate this week's hard change (pair 1), then play the section and the song in time. Weeks 1–2 Street Spirit, weeks 3–4 While My Guitar Gently Weeps.",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Place-and-lift ×20 and air shapes ×10 on the two chords of pair 1. Street Spirit weeks: 2 minutes of the picking pattern on Am alone, metronome at this week's tempo.",
+     "drill": "place-lift"
+    },
+    {
+     "minutes": 8,
+     "title": "The hard change",
+     "instructions": "Change loop to 10 clean, then tempo ladder one chord per bar from 50.",
+     "drill": "change-loop",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "title": "Fretboard: the bass line",
+     "instructions": "Read this week's section. Play only the lowest note of every chord, in time, one per bar, naming it — that is the bass line you are holding up.",
+     "scales": [
+      "A_natural_minor_pos5"
+     ],
+     "minutes": 4
+    },
+    {
+     "minutes": 18,
+     "title": "This week's song",
+     "instructions": "Song loop round the hard change (5 min). The week's section ×3 at this week's tempo. Then the whole form without stopping — fumble through. Weeks 3–4: the last 5 minutes with the record.",
+     "songs": [
+      "street-spirit",
+      "while-my-guitar-gently-weeps"
+     ],
+     "drill": "song-loop",
+     "metronome": {
+      "start": 70,
+      "target": 138
+     },
+     "record": "Stops in the whole form"
+    },
+    {
+     "minutes": 8,
+     "title": "The other core song",
+     "instructions": "Once through at this week's tempo for it. Mark any bar that broke and give it one song loop.",
+     "songs": [
+      "while-my-guitar-gently-weeps",
+      "street-spirit"
+     ]
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick C, write the minutes. Notes: the bar where you stopped, if any."
+    }
+   ]
+  },
+  {
+   "name": "D",
+   "title": "Mix and measure",
+   "focus": "Short versions of everything, the benchmarks with numbers, one review from Level 2, and five minutes of your own music.",
+   "blocks": [
+    {
+     "minutes": 3,
+     "title": "Primer",
+     "instructions": "Air shapes ×5 on every chord in benchmarks 2–4. The tests are taken cold.",
+     "drill": "air-shape"
+    },
+    {
+     "minutes": 12,
+     "title": "Benchmarks",
+     "instructions": "One-minute changes, one round each: **2** G/D 7-8-7 ↔ C/E 9-8-8 · **3** Am/F♯ ↔ Fmaj7 · **4** C♯m ↔ F♯m. Tempo ladder from 60 for **1** the G triad climb, **5** triads up the key and **6** A natural minor in eighths. Write all six numbers in the log.",
+     "drill": "one-minute",
+     "scales": [
+      "A_natural_minor_pos5"
+     ]
+    },
+    {
+     "minutes": 5,
+     "title": "Review from Level 2",
+     "instructions": "One-minute changes on Bm (A2) ↔ F♯m (E2) and Gm7 (E3) ↔ C7 (A3) — or the pair you carried from Level 2. Then five chords from the chord-call list.",
+     "record": "Count"
+    },
+    {
+     "minutes": 17,
+     "title": "Songs, measured",
+     "instructions": "Street Spirit, then While My Guitar Gently Weeps — with the record from week 3, at this week's tempo before that. Write benchmarks 7 and 8 in the log.",
+     "songs": [
+      "street-spirit",
+      "while-my-guitar-gently-weeps"
+     ],
+     "record": "Stops: SS ____ / WMGGW"
+    },
+    {
+     "minutes": 5,
+     "title": "Make something",
+     "instructions": "Am or G: four chords as 1-2-3 triads within five frets, plus one bass walk under a held chord. Loop, change one thing per pass, write the keeper in Notes.",
+     "drill": "make-something"
+    },
+    {
+     "minutes": 3,
+     "title": "Log and exit check",
+     "instructions": "Tick D in the log. Tick any exit box you passed today. Week 6 or all boxes ticked? Fill in the check-in sheet."
+    }
+   ]
+  }
+ ]
+}

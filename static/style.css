@@ -1,0 +1,333 @@
+/* GuitarPractice — one stylesheet for screen (light/dark) and print.
+   Diagram colours come from the .dg classes at the bottom of "Diagrams". */
+
+:root {
+  --bg: #fbfaf7;
+  --ink: #1c1c1e;
+  --muted: #5d5b57;
+  --rule: #dcd8cf;
+  --soft: #f1eee7;
+  --accent: #8a4a14;
+  --measure: 38rem;
+  --wide: 58rem;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17171a;
+    --ink: #e8e6e1;
+    --muted: #a4a19b;
+    --rule: #3b3a3f;
+    --soft: #222226;
+    --accent: #e3a86f;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 1.0625rem/1.6 var(--sans);
+  overflow-wrap: break-word;
+}
+main { max-width: var(--measure); margin: 0 auto; padding: 1.25rem 16px 3rem; }
+body.wide main { max-width: var(--wide); }
+h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.2; font-weight: 600; margin: 1.6em 0 .5em; }
+h1 { font-size: 2rem; margin-top: .4em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.15rem; }
+h4 { font-size: 1rem; }
+p, ul, ol { margin: 0 0 1em; }
+a { color: var(--accent); text-underline-offset: 2px; }
+.muted, .meta { color: var(--muted); }
+.lede { font-size: 1.12rem; color: var(--muted); }
+.badge { display: inline-block; font: 600 .7rem/1 var(--sans); letter-spacing: .04em; padding: .3em .5em;
+  border: 1px solid var(--rule); border-radius: 4px; vertical-align: middle; color: var(--muted); }
+.badge.sample { border-color: var(--accent); color: var(--accent); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+button { font: inherit; padding: .25em .8em; border: 1px solid var(--rule); border-radius: 6px;
+  background: var(--soft); color: var(--ink); cursor: pointer; }
+
+/* ---------- navigation */
+.site-nav { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--rule); }
+.site-nav nav { max-width: var(--wide); margin: 0 auto; display: flex; gap: 2px; padding: 0 10px;
+  overflow-x: auto; scrollbar-width: none; }
+.site-nav nav::-webkit-scrollbar { display: none; }
+.site-nav a { padding: .7rem .45rem; white-space: nowrap; text-decoration: none; color: var(--muted); font-size: .95rem; }
+.site-nav a[aria-current] { color: var(--ink); font-weight: 600; box-shadow: inset 0 -2px 0 var(--accent); }
+.site-foot { max-width: var(--wide); margin: 0 auto; padding: 1rem 16px 2rem; color: var(--muted);
+  font-size: .85rem; border-top: 1px solid var(--rule); }
+.crumb { font-size: .9rem; margin-bottom: 0; }
+.toc li, .roadmap li { margin-bottom: .8em; }
+.prevnext { display: flex; justify-content: space-between; gap: 12px; margin-top: 3rem;
+  border-top: 1px solid var(--rule); padding-top: 1rem; }
+.prevnext a { text-decoration: none; max-width: 48%; }
+.prevnext a span { display: block; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.prevnext .next { text-align: right; margin-left: auto; }
+.jump { display: flex; flex-wrap: wrap; gap: .3rem .9rem; font-size: .9rem; }
+
+/* ---------- callouts */
+.callout { --bg: var(--soft); background: var(--bg); border-left: 4px solid var(--accent);
+  padding: .8rem 1rem .2rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; }
+.callout-title { font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--accent); margin-bottom: .4rem; }
+.callout.why { border-left-style: double; border-left-width: 6px; }
+
+/* ---------- diagrams */
+.dg { display: block; overflow: visible; }
+.dg .ink { fill: var(--ink); }
+.dg .stk { stroke: var(--ink); }
+.dg .bgf { fill: var(--bg); }
+.dg .mut { fill: var(--muted); }
+.dg .mstk { stroke: var(--muted); }
+.dg .faint { fill: var(--rule); }
+.dg text { font-family: var(--sans); }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; padding-bottom: 4px; }
+.scroll .dg { max-width: none; }
+.chordbox { width: 140px; height: auto; max-width: 100%; }
+.chordbox.large { width: 176px; }
+figure { margin: 0; }
+figure.chord { display: inline-flex; flex-direction: column; align-items: center; }
+figure.chord figcaption { text-align: center; line-height: 1.25; }
+.cname { display: block; font-weight: 700; font-size: 1.05rem; }
+.cname.long { font-size: .82em; letter-spacing: -.01em; }
+.cmeta { display: block; font-size: .8rem; color: var(--muted); }
+.chord-row { display: flex; flex-wrap: wrap; gap: 14px 10px; margin: 1.25rem 0; }
+.chord-row figure.chord { width: calc(33.33% - 7px); min-width: 96px; max-width: 150px; }
+.chord-row.single figure.chord { width: auto; max-width: none; }
+.chord-row .chordbox { width: 100%; }
+.chord-row.single .chordbox { width: 150px; }
+a.dg-link { color: inherit; text-decoration: none; display: block; width: 100%; }
+figure.scale { margin: 1.25rem 0; }
+figure.scale figcaption { margin-bottom: .3rem; }
+.sname { font-weight: 700; }
+.smeta { color: var(--muted); font-size: .9rem; }
+.prog { margin: 1rem 0 1.25rem; }
+.prog-title { margin: 0 0 .3rem; font-family: var(--sans); font-size: .95rem; }
+.prog-title .rep, .prog-note { color: var(--muted); font-weight: 400; font-size: .9rem; }
+.prog .dg { width: 100%; max-width: 420px; height: auto; min-width: 300px; }
+.legend { font-size: .9rem; color: var(--muted); }
+.sq { display: inline-block; width: .8em; height: .8em; background: var(--ink); vertical-align: -1px; border-radius: 2px; }
+
+/* ---------- libraries */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 12px; }
+.chord-card { display: flex; gap: 12px; align-items: flex-start; border: 1px solid var(--rule); border-radius: 8px;
+  padding: 10px 12px; scroll-margin-top: 4rem; }
+.chord-card figure.chord { flex: 0 0 120px; }
+.chord-card .chordbox { width: 120px; }
+.chord-card h3 { margin: .2rem 0 .4rem; font-size: 1.25rem; }
+.chord-card p { margin: 0 0 .2rem; font-size: .9rem; }
+.k { display: inline-block; min-width: 6.6em; color: var(--muted); font-size: .8rem; }
+.tag { display: inline-block; font-size: .75rem; border: 1px solid var(--rule); border-radius: 99px; padding: 0 .5em; margin: 2px 3px 0 0; }
+.cnote { color: var(--muted); }
+.scale-entry { scroll-margin-top: 4rem; border-top: 1px solid var(--rule); }
+.song-card { border: 1px solid var(--rule); border-radius: 8px; padding: .2rem 1rem; margin: 1.5rem 0; }
+.song-card h3 { margin-top: .8rem; }
+
+/* ---------- chapter extras: scrolling tables, self-check answers */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; margin: 0 0 1rem; }
+.table-wrap table { margin: 0; }
+.table-wrap.wide table { min-width: 36rem; }
+.table-wrap td, .table-wrap th { vertical-align: top; }
+.chapter details { border: 1px solid var(--rule); border-radius: 6px; padding: .55rem .8rem; margin: 0 0 .6rem; }
+.chapter details summary { cursor: pointer; font-weight: 600; }
+.chapter details[open] summary { margin-bottom: .4rem; }
+.chapter details p:last-child { margin-bottom: .2rem; }
+
+.drills dt { margin-top: 1rem; }
+.drills dt code { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+.drills dd { margin: .2rem 0 0; padding-left: .8rem; border-left: 2px solid var(--rule); }
+.drills .use { display: block; color: var(--muted); font-size: .9rem; margin-top: .2rem; }
+
+/* ---------- packets (level pages, song pages) */
+.print-hint { border: 1px dashed var(--rule); border-radius: 8px; padding: .7rem 1rem; }
+.sheet { border: 1px solid var(--rule); border-radius: 10px; padding: 1rem 16px; margin: 1.5rem 0; }
+.sheet h2 { margin-top: .2rem; }
+.kicker { font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 .2rem; }
+.sh-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 1rem; }
+.session h2 { font-size: 1.6rem; margin-bottom: .2rem; }
+.session h2 span { font-weight: 400; }
+.date { margin: 0; }
+.focus { font-style: italic; color: var(--muted); }
+.blocks { list-style: none; padding: 0; margin: 0; }
+.block { display: flex; gap: 12px; border-top: 1px solid var(--rule); padding: .65rem 0; }
+.b-time { flex: 0 0 4.6rem; display: flex; flex-direction: column; align-items: flex-start; }
+.mins { font-size: 1.5rem; font-weight: 700; line-height: 1.1; margin-top: .2rem; }
+.mins small { font-size: .8rem; font-weight: 400; }
+.clock { font-size: .78rem; color: var(--muted); }
+.b-body h3 { margin: 0 0 .2rem; font-family: var(--sans); font-size: 1.1rem; }
+.b-body p { margin: 0 0 .3rem; }
+.refs, .metro, .record { font-size: .9rem; color: var(--muted); }
+.cb { display: inline-block; width: 1.05em; height: 1.05em; border: 1.6px solid var(--ink); border-radius: 3px; vertical-align: -2px; flex: none; }
+.blank { display: inline-block; border-bottom: 1.2px solid var(--ink); height: 1.1em; vertical-align: -3px; max-width: 100%; }
+.sheet-foot { border-top: 1px solid var(--rule); padding-top: .6rem; margin: .4rem 0 0; color: var(--muted); }
+.checklist { list-style: none; padding-left: 0; }
+.checklist li { margin-bottom: .4rem; padding-left: 1.7em; text-indent: -1.7em; }
+.checklist .cb { margin-right: .5em; }
+.drill-id { color: var(--muted); font-size: .8rem; }
+.chord-row.big figure.chord { width: calc(25% - 8px); min-width: 120px; max-width: 190px; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; margin-bottom: 1rem; }
+th, td { border: 1px solid var(--rule); padding: .45rem .4rem; text-align: left; vertical-align: middle; }
+.logt td { white-space: nowrap; }
+.logt .lbl { font-size: .75rem; color: var(--muted); }
+.bench td { min-width: 3.5em; }
+.teach { margin-top: 1rem; }
+/* song charts: chord shapes + option groups, two-column section grids */
+.song-chords { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0 18px; margin: 1rem 0; }
+.song-chords .chord-row { margin: 0; }
+.alt-voicings { border-left: 2px solid var(--rule); padding-left: 10px; }
+.alt-voicings .chord-row figure.chord { max-width: 104px; }
+.alt-label { font-size: .85rem; color: var(--muted); margin: 0 0 .2rem; max-width: 24rem; line-height: 1.3; }
+.alt-label strong { color: var(--ink); }
+@media (min-width: 760px) {
+  .sections { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; align-items: start; }
+}
+.steps { margin-bottom: .6rem; }
+.steps-h { margin-bottom: .2rem; }
+.caveat { font-style: italic; color: var(--muted); }
+.sources { font-size: .8rem; color: var(--muted); margin-top: 1rem; overflow-wrap: anywhere; }
+.badge.core { border-color: var(--ink); color: var(--ink); }
+.packet .sheet { overflow-x: auto; }
+/* level packet extras: week strip, how-to, week plan, grouped chords, check-in */
+.wk { display: inline-block; min-width: 1.35em; text-align: center; border: 1px solid var(--rule); border-radius: 50%;
+  font-size: .8em; line-height: 1.35em; margin-right: .15em; }
+.howto { border: 1.5px solid var(--ink); border-radius: 6px; padding: .5rem .8rem; margin: .6rem 0 .8rem; }
+.howto p { margin: 0 0 .3rem; }
+.status { border-left: 4px solid var(--accent); padding: .3rem .7rem; font-style: italic; }
+.rule { margin: 0 0 .5rem; }
+.songlist { list-style: none; padding-left: 0; }
+.songlist li { margin-bottom: .2rem; }
+.role { display: inline-block; min-width: 5.6em; font-size: .8em; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.weekplan th, .weekplan td { vertical-align: top; }
+.weekplan tbody th { white-space: nowrap; }
+.cgroup h3 { margin: .8rem 0 .2rem; }
+.gnote { font-family: var(--sans); font-weight: 400; font-size: .85rem; color: var(--muted); }
+.wl { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .2em .5em; margin: 0 0 .2rem; min-height: 2.2em; }
+.wl-lbl { flex: 0 1 auto; }
+.wl > .blank { flex: 1 1 35%; width: auto !important; min-width: 35%; height: 1.6em; }
+.wl3 { display: flex; flex-wrap: wrap; gap: .4rem 1.6rem; }
+.checkin-bench td { min-width: 5em; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.7rem; }
+  .chord-row:not(.compact):not(.single) figure.chord { width: calc(50% - 5px); max-width: 180px; }
+  .logt .lbl { display: none; }
+  .logt td .blank { width: 2.4em !important; }
+  .chord-card figure.chord { flex-basis: 124px; }
+  .chord-card .chordbox { width: 124px; }
+  .chord-card { gap: 8px; padding: 10px 8px; }
+}
+
+/* ---------- print: US Letter, black on white, no fills */
+@page { size: letter; margin: 0.5in; }
+@media print {
+  :root, :root * {
+    --bg: #fff; --ink: #000; --muted: #333; --rule: #999; --soft: #fff; --accent: #000;
+  }
+  html, body { background: #fff; color: #000; font-size: 11pt; }
+  .site-nav, .site-foot, .noprint, .print-hint, button { display: none !important; }
+  main, body.wide main { max-width: none; padding: 0; margin: 0; }
+  a { color: #000; text-decoration: none; }
+  .sheet { border: 0; border-radius: 0; padding: 0; margin: 0; break-after: page; page-break-after: always; overflow: visible; }
+  .sheet:last-child { break-after: auto; page-break-after: auto; }
+  .sheet h2 { margin-top: 0; }
+  .callout { background: #fff; border-left-color: #000; }
+  .scroll { overflow: visible; }
+  .scroll .dg { max-width: 100%; height: auto; }
+  figure, .block, tr, .prog, .chord-card, li, .teach p { break-inside: avoid; page-break-inside: avoid; }
+  h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+
+  /* session pages: big type for the music stand */
+  .session { font-size: 13pt; line-height: 1.38; }
+  .session .kicker { font-size: 9pt; }
+  .session h2 { font-size: 22pt; }
+  .session .focus { font-size: 12pt; margin-bottom: .5rem; }
+  .block { padding: .55rem 0; }
+  .b-time { flex-basis: 5.6rem; }
+  .mins { font-size: 20pt; }
+  .b-body h3 { font-size: 15pt; }
+  .refs, .metro, .record { font-size: 11pt; color: #000; }
+  .cb { width: 15pt; height: 15pt; border-width: 1.6pt; }
+  .chord-row.big { gap: 18pt 4%; justify-content: flex-start; }
+  .chord-row.big figure.chord { width: 30%; max-width: none; }
+  .chord-row.big .chordbox { width: 100%; }
+  .cname { font-size: 14pt; }
+  .logt td, .logt th { padding: 10pt 6pt; }
+  .bench td, .bench th { padding: 8pt 6pt; }
+  .prog .dg { max-width: 3.9in; min-width: 0; }
+  .song-sheet .prog-title { margin-bottom: 2pt; }
+  .song-sheet .prog-note { margin: 2pt 0 0; }
+  .song-sheet h1, .song-sheet h2 { margin-bottom: 4pt; }
+  .teach p { margin-bottom: 4pt; }
+  .prog { margin: .4rem 0 .6rem; }
+  .song-sheet .meta, .song-sheet .prog-note, .song-sheet .teach { font-size: 10.5pt; }
+  .song-sheet .chord-row { margin: .5rem 0; }
+  .ref-sheet .dg.neck { width: 100%; max-width: 6.2in; height: auto; }
+  .ref-sheet figure.scale { margin-bottom: 24pt; }
+  .song-sheet { font-size: 9.5pt; line-height: 1.32; }
+  .song-sheet .song-title { font-size: 19pt; margin: 0 0 2pt; }
+  .song-sheet .meta { font-size: 9.5pt; margin-bottom: 4pt; }
+  .song-sheet .song-chords { gap: 0 10pt; margin: 4pt 0 6pt; }
+  .song-sheet .chord-row { gap: 4pt 5pt; }
+  .song-sheet .chord-row figure.chord { width: .68in; min-width: 0; }
+  .song-sheet .cname { font-size: 10pt; }
+  .song-sheet .cname.long { font-size: 8.3pt; }
+  .song-sheet .alt-voicings { padding-left: 6pt; }
+  .song-sheet .alt-label { font-size: 8pt; max-width: 2.6in; }
+  .song-sheet .form { margin-bottom: 3pt; }
+  .song-sheet .sections { display: grid; grid-template-columns: 1fr 1fr; gap: 0 .22in; align-items: start; }
+  .song-sheet .prog { margin: 0 0 5pt; }
+  .song-sheet .prog .dg { width: 100%; max-width: none; }
+  .song-sheet .prog-title { font-size: 9.5pt; }
+  .song-sheet .prog-note { font-size: 8.5pt; line-height: 1.25; }
+  .song-sheet .teach { columns: 2; column-gap: .25in; margin-top: 4pt; font-size: 9pt; }
+  .song-sheet .teach p, .song-sheet .teach li { break-inside: avoid; }
+  .song-sheet .steps-h { break-after: avoid; }
+  .song-sheet .teach ol, .song-sheet .teach ul { padding-left: 1.3em; margin-bottom: 4pt; }
+  .song-sheet .badge { font-size: 7pt; }
+  /* session pages, compact: one Letter page with 6-7 blocks and ~1,400 characters */
+  .session { font-size: 12pt; line-height: 1.3; }
+  .session h2 { font-size: 20pt; }
+  .session .sheet-head .focus { margin: .1rem 0 .3rem; }
+  .session .block { padding: .4rem 0; gap: 10pt; }
+  .session .b-time { flex-basis: 4.6rem; }
+  .session .mins { font-size: 17pt; }
+  .session .b-body h3 { font-size: 13.5pt; margin-bottom: 1pt; }
+  .session .b-body p { margin-bottom: 2pt; }
+  .session .refs { font-size: 9.5pt; color: #333; }
+  .session .metro { font-size: 10.5pt; }
+  .session .date { font-size: 11pt; }
+  .wk { width: 15pt; min-width: 15pt; line-height: 15pt; font-size: 10pt; border: 1pt solid #000; }
+  .overview { font-size: 11pt; line-height: 1.38; }
+  .plan { font-size: 10.5pt; line-height: 1.32; }
+  .plan h2 { margin-bottom: 6pt; }
+  .overview h3, .plan h3 { margin: 10pt 0 4pt; font-size: 13pt; }
+  .overview ul { margin-bottom: 4pt; }
+  .weekplan { font-size: 9.5pt; line-height: 1.3; }
+  .weekplan th, .weekplan td { padding: 4pt 5pt; }
+  .drills-sheet { font-size: 9.5pt; line-height: 1.3; }
+  .drills-sheet .drills li { margin-bottom: 3.5pt; }
+  .drills-sheet > p.muted { margin-bottom: 4pt; }
+  .song-sheet > .kicker { display: none; }
+  .plan .checklist li { margin-bottom: 2pt; }
+  .plan .rule { margin-bottom: 4pt; }
+  .drills-sheet .drills { padding-left: 2em; }
+  .ref-sheet.grouped .chord-row.big { gap: 6pt 4%; margin: 4pt 0 8pt; }
+  .ref-sheet.grouped .chord-row.big figure.chord { width: 19.5%; }
+  .cgroup { break-inside: avoid; page-break-inside: avoid; }
+  .cgroup h3 { font-size: 12pt; margin: 6pt 0 0; }
+  .logt td { white-space: normal; line-height: 1.8; padding: 4pt 6pt; }
+  .logt th { padding: 4pt 6pt; }
+  .log .bench td, .log .bench th { padding: 5pt 5pt; }
+  .bench thead th { white-space: nowrap; }
+  .log .bench tbody th { font-size: 9.5pt; }
+  .log h3 { margin: 10pt 0 4pt; }
+  .checkin { font-size: 11pt; }
+  .checkin .wl { min-height: 27pt; }
+  .checkin .bench td, .checkin .bench th { padding: 5pt 6pt; }
+}
+.sheet-foot2 { margin: .9rem 0 0; }

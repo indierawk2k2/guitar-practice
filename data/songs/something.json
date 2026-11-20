@@ -1,0 +1,79 @@
+{
+  "id": "something",
+  "title": "Something",
+  "artist": "The Beatles",
+  "level": 4,
+  "order": 3,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "C",
+  "feel": "Slow, about 66 bpm (estimate); bridge in A",
+  "chords": {
+    "F": "F_barre_E1",
+    "Eb": "Eb_part_D1",
+    "G": "G_open",
+    "C": "C_open",
+    "Cmaj7": "Cmaj7_open",
+    "C7": "C7_open",
+    "D": "D_open",
+    "Am": "Am_open",
+    "Am(maj7)/G#": "Ammaj7_over_Gsharp_open",
+    "Am/G": "Am_over_G",
+    "D9/F#": "D9_over_Fsharp_open",
+    "A": "A_open",
+    "C#m/G#": "Csharpm_over_Gsharp_barre_A4",
+    "F#m": "Fsharpm_barre_E2",
+    "A/E": "A_over_E_open"
+  },
+  "form": [
+    "Intro",
+    "Verse",
+    "Refrain",
+    "Verse",
+    "Refrain",
+    "Bridge",
+    "Bridge, 2nd time",
+    "Verse",
+    "Refrain",
+    "Verse",
+    "Refrain"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "F | Eb G | C"
+    },
+    {
+      "name": "Verse",
+      "bars": "C | % | Cmaj7 | % | C7 | % | F | % | D | % | G | %",
+      "note": "Commonly played one chord per bar: C Cmaj7 C7 F D G."
+    },
+    {
+      "name": "Refrain",
+      "bars": "Am | Am(maj7)/G# | Am/G | D9/F# | F Eb G | C",
+      "note": "Bar 5 holds three chords (rhythm approximate)."
+    },
+    {
+      "name": "Bridge",
+      "bars": "A | C#m/G# | F#m | A/E | D | G | A",
+      "note": "Led in by F E♭ G."
+    },
+    {
+      "name": "Bridge, 2nd time",
+      "bars": "A | C#m/G# | F#m | A/E | D | G | C"
+    }
+  ],
+  "why": "**Two line clichés** (C–Cmaj7–C7 and Am–Am(maj7)–Am/G–D9/F♯), ♭III, and an augmented sound hidden in Am(maj7)/G♯.",
+  "hard_change": "**D9/F♯ → F → E♭ → G** within two bars. The Am fingers stay for the whole cliché; only the bass note moves.",
+  "theory": "C7 = V/IV, D = V/V, E♭ = ♭III (borrowed). The bridge moves to A via G (♭VII).",
+  "steps": [
+    "Changes alone, slowly: the descending bass A–G♯–G–F♯ under the held Am shape.",
+    "With the rhythm at 70% (about 46 bpm).",
+    "With the record (the third verse is the guitar solo; the outro follows the record)."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/s.html",
+    "https://www.guitartabsexplorer.com/beatles/something-crd"
+  ]
+}

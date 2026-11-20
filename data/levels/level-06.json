@@ -1,0 +1,461 @@
+{
+ "id": "level-06",
+ "number": 6,
+ "title": "Beyond standard tuning",
+ "status": "First draft, written before you started Level 1. Before printing, re-tune it from your Level 5 check-in sheet and practice log: pairs, targets and tempos are best guesses.",
+ "summary": "Retune, and the map you have built for five levels moves under your fingers. Drop D changes one string — two frets' difference on string 6 and a low D root that rings under everything in D — which is enough for Dear Prudence's bass line falling under a held D and Harvest Moon's ringing riff high up the neck. Open G and DADGAD get a first taste: what a tuning gives you (drones, one-finger chords) and how to find chords in a tuning you don't know.",
+ "goals": [
+  "Retune standard ↔ drop D in under 30 seconds, by ear.",
+  "Dear Prudence fingerpicked with the record, the bass walk D – C – B – B♭ unbroken.",
+  "Harvest Moon with the record, the riff both low and high.",
+  "Find D, G and A chords in drop D, open G and DADGAD from the interval map, without a chart.",
+  "Write and play one eight-bar piece of your own in drop D."
+ ],
+ "reading": [
+  {
+   "chapter": "alternate-tunings",
+   "note": "week 1."
+  },
+  {
+   "chapter": "fretboard-map",
+   "note": "week 1 — re-read “Strings 6 and 5”: string 6 has moved."
+  },
+  {
+   "chapter": "keep-growing",
+   "note": "week 2 — then pick what comes after this level."
+  }
+ ],
+ "songs": [
+  "dear-prudence",
+  "harvest-moon",
+  "honky-tonk-women",
+  "here-come-the-warm-jets",
+  "cinnamon-girl"
+ ],
+ "song_plan": "Core: **Dear Prudence** (Song day weeks 1–2) and **Harvest Moon** (weeks 3–4), both in **drop D** (D A D G B E). Tune to drop D at the start of every session; blocks in another tuning say so. Swap a core song for an alternate when you can already play it with the record, or when its hard change is still under 15 a minute after two weeks. Alternates, easiest first: *Honky Tonk Women* (open G, 6th string off), *Here Come the Warm Jets* (power chords, tuned down a half step), *Cinnamon Girl* (double drop D: string 1 down to D as well).",
+ "weeks": 6,
+ "week_plan": [
+  {
+   "chords": "**1** D → D/C → D/B → D/B♭ (one finger walks string 5) · **2** D ↔ Dsus4 (hammer on string 1) · **3** retune standard → drop D → standard",
+   "fretboard": "Drop D map: every note on string 6 two frets higher than before",
+   "song": "Dear Prudence: picking pattern on D, then the verse loop",
+   "tempo": "DP 66 (60%) · HM 66 (60%)"
+  },
+  {
+   "chords": "**1** F (xx3211) ↔ A♭ (xx6544): the same shape, 3 frets up · **2** A♭ → G (xx5433) → D · **3** D/B ↔ D/B♭",
+   "fretboard": "D major in drop D, low D to high D",
+   "song": "Dear Prudence: bridge and turn (F A♭ G D)",
+   "tempo": "DP 77 (70%) → 88"
+  },
+  {
+   "chords": "**1** riff, open: D → D6 → Dmaj7 → D6 · **2** riff, high: Dadd9 → D6/9 → Dmaj7 (frets 9–12) · **3** Em (222000) ↔ G (5x0003)",
+   "fretboard": "Open G (D G D G B D): I–IV–V as open, fret 5, fret 7",
+   "song": "Harvest Moon: riff and verse",
+   "tempo": "HM 77 (70%) · DP 99 (90%)"
+  },
+  {
+   "chords": "**1** A7sus4 ↔ A7, then back into the riff · **2** your weakest benchmark pair · **3** DADGAD: find D, G, A",
+   "fretboard": "DADGAD (D A D G A D): the D major map; find chords",
+   "song": "Harvest Moon: chorus. Both songs with the record",
+   "tempo": "HM 88 → record (≈110) · DP record (≈110)"
+  }
+ ],
+ "chord_groups": [
+  {
+   "label": "Drop D (D A D G B E) — Dear Prudence",
+   "chords": [
+    "D_dropD",
+    "D_over_C_dropD",
+    "D_over_B_dropD",
+    "D_over_Bb_dropD",
+    "F_dropD",
+    "Ab_dropD",
+    "G_dropD_4str"
+   ]
+  },
+  {
+   "label": "Drop D — Harvest Moon",
+   "chords": [
+    "D6_dropD",
+    "Dmaj7_dropD",
+    "A7sus4_dropD",
+    "Dadd9_dropD_10",
+    "D6_over_9_dropD_11",
+    "Dmaj7_dropD_9"
+   ]
+  },
+  {
+   "label": "A taste of open G (D G D G B D) and DADGAD (D A D G A D)",
+   "chords": [
+    "G_openG",
+    "C_openG",
+    "D_dadgad"
+   ]
+  }
+ ],
+ "scales": [
+  "D_major_dropD_neck",
+  "G_major_openG_neck",
+  "D_major_dadgad_neck"
+ ],
+ "exit_criteria": [
+  "Benchmarks 1–6 at target in two Session Ds in a row.",
+  "Dear Prudence with the record, picking unbroken, no stops.",
+  "Harvest Moon with the record, riff high and low, no stops.",
+  "D, G and A found in open G and in DADGAD, two minutes per tuning, frets written down.",
+  "One eight-bar piece of your own in drop D, written down and played the same way twice.",
+  "Chapters 16 and 17 read."
+ ],
+ "stuck": "Not every box ticked after 6 weeks? Stop the level anyway: keep one song from it in your own playing, and take your weakest pair into whatever you learn next (Learn chapter 17 shows how to build the drill).",
+ "skip_ahead": "Pass every benchmark cold in week 1's Session D? Skip to the song bench (Songs page, “Next up”) and build your own packet with chapter 17.",
+ "drills": [
+  {
+   "id": "one-minute",
+   "title": "One-minute changes",
+   "instructions": "Timer at 1:00. One down-strum per chord, change, strum the other, as fast as you can while staying clean. Count clean landings only. Two rounds per pair; write the better count."
+  },
+  {
+   "id": "air-shape",
+   "title": "Air shapes",
+   "instructions": "Hand off the neck. Form the whole shape an inch above the strings, land all fingers at once, strum, check every string, lift. Ten per shape."
+  },
+  {
+   "id": "place-lift",
+   "title": "Place and lift",
+   "instructions": "Fret the shape, relax until the fingers just touch, press again. Twenty presses, one per click at 60, no strumming."
+  },
+  {
+   "id": "anchor",
+   "title": "Anchor hunt",
+   "instructions": "Before a new pair, say what stays (anchor), what slides along its string (guide) and what jumps. Then ten changes keeping anchors down. This level: D → D/C → D/B → D/B♭ = the D shape on strings 3-2-1 never moves; F ↔ A♭ = the whole shape slides 3 frets; the high riff = the open D strings ring under every shape."
+  },
+  {
+   "id": "change-loop",
+   "title": "Change loop",
+   "instructions": "Strum chord 1 once, change, strum chord 2 once, stop, reset. Ten clean in a row; a miss sets the count back to zero."
+  },
+  {
+   "id": "tempo-ladder",
+   "title": "Tempo ladder",
+   "instructions": "One chord per bar, four down-strums (or the song's figure). Start where it is perfect (try 50). Three clean passes: +4 bpm. A miss: −8 bpm. Write the top clean tempo in today's blank."
+  },
+  {
+   "id": "eyes-closed",
+   "title": "Eyes closed",
+   "instructions": "Make the change without looking; open your eyes after landing to check. Ten times."
+  },
+  {
+   "id": "song-loop",
+   "title": "Song loop",
+   "instructions": "Loop the two bars around the hard change in the song's own rhythm, 10 bpm under this week's tempo. Then add a bar either side. Then the whole section."
+  },
+  {
+   "id": "random-pairs",
+   "title": "Random pairs",
+   "instructions": "Write the 16 chord names from the chord page on scraps. Draw two, do one-minute changes, write the pair and count on the back of the sheet. Draw again."
+  },
+  {
+   "id": "retune",
+   "title": "Retune by ear",
+   "instructions": "**Standard → drop D:** play open string 4 (D) and lower string 6 until the two Ds stop beating; check string 6 fret 7 against open string 5 (both A). **Back:** raise string 6 until its fret 5 matches open string 5. Timer running; write the seconds."
+  },
+  {
+   "id": "pick-pattern",
+   "title": "Picking pattern",
+   "instructions": "Thumb plays the bass on beats 1 and 3 (string 6, later string 5); index and middle alternate on strings 3 and 2 between. Two minutes on D alone before any change; the thumb never stops."
+  },
+  {
+   "id": "bass-under-d",
+   "title": "Bass walk under D",
+   "instructions": "Hold D's top (strings 3-2-1: xxx232). Bass: open string 6 (D) → string 5 fret 3 (C) → fret 2 (B) → fret 1 (B♭), one bar each, picking pattern going. That is Dear Prudence's verse loop: D – D/C – D/B – D/B♭."
+  },
+  {
+   "id": "riff",
+   "title": "Harvest Moon riff",
+   "instructions": "One chord per beat, open strings ringing: **low** D 000232 → D6 000202 → Dmaj7 000222 → D6. **High** Dadd9 0xx11-10-0 → D6/9 0xx11-12-0 → Dmaj7 0xx11-10-9 → D6/9. Low ×2, high ×2, at 60 then up the ladder."
+  },
+  {
+   "id": "find-chords",
+   "title": "Find chords in a new tuning",
+   "instructions": "Tune as the block says. Strum the open strings and name the chord. Then, using the tuning's map, build D, G and A from a root on string 6 or 5 plus the nearest 3rd and 5th. Write each one's frets in Notes; check by ear."
+  },
+  {
+   "id": "make-something",
+   "title": "Make something",
+   "instructions": "Drop D. Eight bars using the low D drone: two chords from the chord page plus one you found yourself, and one bar of the bass walk. Write it down (chords, frets, picking) so you can play it the same way twice."
+  }
+ ],
+ "benchmarks": [
+  {
+   "name": "1 · Retune standard → drop D → standard, seconds",
+   "target": "≤ 30"
+  },
+  {
+   "name": "2 · Dear Prudence loop, picking unbroken, bpm",
+   "target": "110"
+  },
+  {
+   "name": "3 · F (xx3211) ↔ A♭ (xx6544), changes/min",
+   "target": "35"
+  },
+  {
+   "name": "4 · Harvest Moon riff, low ×2 + high ×2, bpm",
+   "target": "110"
+  },
+  {
+   "name": "5 · Em (222000) ↔ G (5x0003), changes/min",
+   "target": "35"
+  },
+  {
+   "name": "6 · D major in drop D, D to D, eighths, bpm",
+   "target": "100"
+  },
+  {
+   "name": "7 · Dear Prudence with the record: stops",
+   "target": "0"
+  },
+  {
+   "name": "8 · Harvest Moon with the record: stops",
+   "target": "0"
+  }
+ ],
+ "checkin": [
+  "Which tuning would you keep using in your own music?",
+  "What do you want to learn next — a song, a style, a technique?"
+ ],
+ "sessions": [
+  {
+   "name": "A",
+   "title": "Chord day",
+   "focus": "New shapes and this week's three pairs (week plan, column 1). Pair 1 is the hard one.",
+   "blocks": [
+    {
+     "minutes": 5,
+     "title": "Primer: today's shapes",
+     "instructions": "Retune to drop D by ear (timed). Then air shapes ×10 on both chords of pair 1. Carried a weak pair from Level 5? Change-loop it (in standard, before retuning) for the last minute.",
+     "drill": "retune",
+     "metronome": 60
+    },
+    {
+     "minutes": 12,
+     "title": "Pair 1: the full recipe",
+     "instructions": "Anchor hunt (say what stays, slides, jumps) → slow motion ×5 → change loop to 10 clean → tempo ladder from 50, one chord per bar. A chain of chords? Ladder the whole chain. Stop at the clock.",
+     "drill": "tempo-ladder",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "minutes": 8,
+     "title": "Pairs 2 and 3",
+     "instructions": "Change loop to 10 clean on each, then one-minute changes: two rounds each. Write the better count.",
+     "drill": "one-minute",
+     "record": "Pair 2 ____ / pair 3"
+    },
+    {
+     "title": "Bass walk under D",
+     "instructions": "Picking pattern on D for one minute, then the walk D – D/C – D/B – D/B♭, one bar each, thumb never stopping.",
+     "drill": "bass-under-d",
+     "metronome": {
+      "start": 60,
+      "target": 90
+     },
+     "minutes": 5
+    },
+    {
+     "title": "Fretboard: string 6 moved",
+     "instructions": "Drop D: play D, E, F, G, A, B♭, C, D up string 6 (frets 0, 2, 3, 5, 7, 8, 10, 12) and say each name. Then the root of every chord in this week's song on string 6.",
+     "scales": [
+      "D_major_dropD_neck"
+     ],
+     "minutes": 5
+    },
+    {
+     "minutes": 7,
+     "title": "Song: put pair 1 back in",
+     "instructions": "In this week's song section: song loop on the two bars with pair 1, then the section ×2 at this week's tempo.",
+     "songs": [
+      "dear-prudence",
+      "harvest-moon"
+     ],
+     "drill": "song-loop"
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick A, write the minutes. In Notes: the change that felt worst today."
+    }
+   ]
+  },
+  {
+   "name": "B",
+   "title": "Fretboard day",
+   "focus": "Tunings as maps: what moved, what the open strings give you, how to find chords (week plan, column 2). Each block names its tuning.",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Air shapes ×10 on the two chords of pair 1, then the change with eyes closed ×10.",
+     "drill": "eyes-closed"
+    },
+    {
+     "title": "This week's tuning map",
+     "instructions": "Weeks 1–2 drop D, week 3 open G, week 4 DADGAD. Strum the open strings, name the chord, then find every D (or G in open G) on the diagram and play them.",
+     "scales": [
+      "D_major_dropD_neck",
+      "G_major_openG_neck",
+      "D_major_dadgad_neck"
+     ],
+     "minutes": 8
+    },
+    {
+     "title": "D major in drop D",
+     "instructions": "From open string 6 (low D) up to the D at string 2 fret 3 and back, saying the root at every square. Quarters at 60, then eighths on the tempo ladder.",
+     "scales": [
+      "D_major_dropD_neck"
+     ],
+     "metronome": {
+      "start": 60,
+      "target": 100
+     },
+     "minutes": 9
+    },
+    {
+     "title": "Find chords",
+     "instructions": "Weeks 1–2 drop D, week 3 open G, week 4 DADGAD: find D, G and A (open G: G, C, D) and write their frets. Then play I–IV–V–I with them, one bar each.",
+     "drill": "find-chords",
+     "record": "Chords found",
+     "minutes": 9
+    },
+    {
+     "title": "Song by numbers: Harvest Moon",
+     "instructions": "Drop D. Riff on I (D), verse ii (Em) and IV (G), chorus V (A7sus4 – A7). Play the form at this week's HM tempo; then move the riff idea to G: G 5x0003 → G6 5x0000 → Gmaj7 5x0002 → G6, one per beat.",
+     "songs": [
+      "harvest-moon"
+     ],
+     "drill": "riff",
+     "metronome": {
+      "start": 66,
+      "target": 110
+     },
+     "minutes": 12
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick B, write the minutes. Notes: what on the fretboard is still slow."
+    }
+   ]
+  },
+  {
+   "name": "C",
+   "title": "Song day",
+   "focus": "Longest song block: isolate this week's hard change (pair 1), then play the section and the song in time. Weeks 1–2 Dear Prudence, weeks 3–4 Harvest Moon. Drop D throughout.",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Picking pattern on D for one minute. Then place-and-lift ×20 and air shapes ×10 on the two chords of pair 1.",
+     "drill": "place-lift"
+    },
+    {
+     "minutes": 8,
+     "title": "The hard change",
+     "instructions": "Change loop to 10 clean, then tempo ladder one chord per bar from 50.",
+     "drill": "change-loop",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "title": "Fretboard: bass line",
+     "instructions": "Read this week's section. Play only its bass notes, in time, one per bar, naming each — in drop D every string-6 note is two frets higher than you expect.",
+     "scales": [
+      "D_major_dropD_neck"
+     ],
+     "minutes": 4
+    },
+    {
+     "minutes": 18,
+     "title": "This week's song",
+     "instructions": "Song loop round the hard change (5 min). The week's section ×3 at this week's tempo. Then the whole form without stopping — fumble through. Weeks 3–4: the last 5 minutes with the record.",
+     "songs": [
+      "dear-prudence",
+      "harvest-moon"
+     ],
+     "drill": "song-loop",
+     "metronome": {
+      "start": 66,
+      "target": 110
+     },
+     "record": "Stops in the whole form"
+    },
+    {
+     "minutes": 8,
+     "title": "The other core song",
+     "instructions": "Once through at this week's tempo for it. Mark any bar that broke and give it one song loop.",
+     "songs": [
+      "harvest-moon",
+      "dear-prudence"
+     ]
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick C, write the minutes. Notes: the bar where you stopped, if any."
+    }
+   ]
+  },
+  {
+   "name": "D",
+   "title": "Mix and measure",
+   "focus": "Short versions of everything, the benchmarks with numbers, one review from Level 5, and five minutes of your own music.",
+   "blocks": [
+    {
+     "minutes": 3,
+     "title": "Primer",
+     "instructions": "Retune to drop D (benchmark 1: time it, standard → drop D → standard → drop D). Air shapes ×5 on the chords of benchmarks 3 and 5.",
+     "drill": "air-shape"
+    },
+    {
+     "minutes": 12,
+     "title": "Benchmarks",
+     "instructions": "One-minute changes, one round each: **3** F ↔ A♭ · **5** Em ↔ G. Tempo ladder from 60 for **2** the Dear Prudence loop, **4** the riff and **6** D major in eighths. Write all six numbers (and benchmark 1) in the log.",
+     "drill": "one-minute",
+     "scales": [
+      "D_major_dropD_neck"
+     ]
+    },
+    {
+     "minutes": 5,
+     "title": "Review from Level 5",
+     "instructions": "One-minute changes Am7 (x02010) ↔ D (xx0232) — neither uses string 6, so drop D is fine — then She's Not There's verse once. Or the pair you carried from Level 5.",
+     "record": "Count"
+    },
+    {
+     "minutes": 17,
+     "title": "Songs, measured",
+     "instructions": "Dear Prudence, then Harvest Moon — with the record from week 3, at this week's tempo before that. Write benchmarks 7 and 8 in the log.",
+     "songs": [
+      "dear-prudence",
+      "harvest-moon"
+     ],
+     "record": "Stops: DP ____ / HM"
+    },
+    {
+     "minutes": 5,
+     "title": "Make something",
+     "instructions": "Drop D, low D drone: eight bars with two chord-page chords, one chord you found, one bar of bass walk. Write it down; play it twice the same.",
+     "drill": "make-something"
+    },
+    {
+     "minutes": 3,
+     "title": "Log and exit check",
+     "instructions": "Tick D in the log. Tick any exit box you passed today. Week 6 or all boxes ticked? Fill in the check-in sheet."
+    }
+   ]
+  }
+ ]
+}

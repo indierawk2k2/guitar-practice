@@ -1,0 +1,54 @@
+{
+  "id": "ping-pong",
+  "title": "Ping Pong",
+  "artist": "Stereolab",
+  "level": 5,
+  "order": 3,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "medium",
+  "key": "C#m",
+  "tempo": 168,
+  "feel": "Muted, choppy eighth-note comping (felt in 2); C♯ Dorian",
+  "chords": {
+    "C#m7": "Csharpm7_barre_A4",
+    "D#m7": "Dsharpm7_barre_A6",
+    "Emaj7": "Emaj7_barre_A7",
+    "Bm7": "Bm7_barre_A2",
+    "Am7": "Am7_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Hooktheory's chorus tail",
+      "chords": [
+        "Dmaj7_part_A5",
+        "Am9_open"
+      ],
+      "note": "Dmaj7 → Am9 in place of Bm7 → Am7"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro / Verse",
+      "bars": "C#m7 | D#m7 | Emaj7 | D#m7",
+      "note": "Bar 4 is sometimes plain D♯m."
+    },
+    {
+      "name": "Chorus",
+      "bars": "C#m7 | D#m7 | Emaj7 | Bm7 | Am7"
+    }
+  ],
+  "why": "A **Stereolab-style m7/maj7 vamp**: one A-string-rooted shape slid in whole and half steps while the quality changes.",
+  "hard_change": "**Emaj7 → Bm7 → Am7**, a slide down into a foreign key.",
+  "theory": "i7–ii7–IIImaj7 in C♯ Dorian (ii7 with natural 6 = Dorian). The chorus drops to ♭-side chords (Bm7, Am7).",
+  "steps": [
+    "Changes alone, slowly: C♯m7 → D♯m7 → Emaj7, shape held.",
+    "With the rhythm at 70% (about 118 bpm), muted eighths.",
+    "With the record."
+  ],
+  "caveat": "The chorus tail differs between sources (Bm7 → Am7 vs Dmaj7 → Am9); voicings vary between transcriptions — trust your ear and your teacher's version.",
+  "sources": [
+    "https://www.guitartabsexplorer.com/stereolab/ping-pong-chords",
+    "https://www.hooktheory.com/theorytab/view/stereolab/ping-pong"
+  ]
+}

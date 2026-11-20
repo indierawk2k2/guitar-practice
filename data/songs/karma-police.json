@@ -1,0 +1,55 @@
+{
+  "id": "karma-police",
+  "title": "Karma Police",
+  "artist": "Radiohead",
+  "level": 4,
+  "order": 1,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "high",
+  "key": "Am",
+  "tempo": 75,
+  "feel": "Piano-led; the acoustic strum doubles it",
+  "chords": {
+    "Am": "Am_open",
+    "D/F#": "D_over_Fsharp",
+    "Em": "Em_open",
+    "G": "G_open_3x0003",
+    "F": "F_barre_E1",
+    "D": "D_open",
+    "C": "C_open",
+    "C/B": "C_over_B_open",
+    "Bm": "Bm_barre_A2",
+    "F#": "Fsharp_barre_E2",
+    "E": "E_open"
+  },
+  "sections": [
+    {
+      "name": "Intro / Verse",
+      "bars": "Am D/F# | Em G | Am F | Em G | Am D | G . C C/B | Am | Bm D",
+      "note": "Bar 6 holds three chords (rhythm approximate)."
+    },
+    {
+      "name": "Chorus",
+      "bars": "C D | G F# | C D | G F# | C D | G | Bm C | Bm D"
+    },
+    {
+      "name": "Outro",
+      "bars": "Bm D | G D | G D | E",
+      "repeat": 2,
+      "note": "The final chord is Am."
+    }
+  ],
+  "why": "A **secondary dominant**: F♯ (V of Bm) inside a G-major chorus, plus the Dorian IV (D over Am) in the verse.",
+  "hard_change": "**G → F♯ barre** in the chorus. From the 3x0003 G grip, the barre lands one fret lower — aim the index first.",
+  "theory": "Verse i–IV6–v–VII (Dorian, from the major IV). Chorus IV–V–I–V/iii. The outro tonicises B minor.",
+  "steps": [
+    "Changes alone, slowly: C → D → G → F♯.",
+    "With the rhythm at 70% (about 52 bpm).",
+    "With the record."
+  ],
+  "sources": [
+    "https://www.heartwoodguitar.com/chords/radiohead-karma-police/?print=1",
+    "https://hooktheory.com/theorytab/view/radiohead/karma-police"
+  ]
+}

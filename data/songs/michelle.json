@@ -1,0 +1,67 @@
+{
+  "id": "michelle",
+  "title": "Michelle",
+  "artist": "The Beatles",
+  "level": 4,
+  "order": 5,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "high",
+  "key": "F",
+  "feel": "Fingerpicked/brushed, about 120 bpm (estimate); F major verses, F minor intro and bridge",
+  "chords": {
+    "Fm": "Fm_barre_E1",
+    "Fm(maj7)": "Fmmaj7_1x2111",
+    "Fm7": "Fm7_barre_E1",
+    "Fm6": "Fm6_1x0111",
+    "Dbmaj7": "Dbmaj7_x43111",
+    "C": "C_open",
+    "F": "F_barre_E1",
+    "Bbm7": "Bbm7_barre_A1",
+    "Eb6": "Eb6_xx1313",
+    "Ddim7": "Ddim7_open",
+    "Ab7": "Ab7_barre_E4",
+    "Db": "Db_barre_A4"
+  },
+  "form": [
+    "Intro",
+    "Verse",
+    "Verse",
+    "Bridge",
+    "Verse",
+    "Bridge",
+    "Verse",
+    "Bridge",
+    "Verse"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "Fm Fm(maj7) | Fm7 Fm6 | Dbmaj7 | C",
+      "note": "Inner line F–E–E♭–D–D♭–C."
+    },
+    {
+      "name": "Verse",
+      "bars": "F | Bbm7 | Eb6 | Ddim7 | C Ddim7 | C",
+      "note": "The record's bar 2 is B♭7♯9; charts write B♭m7. Ddim7 = B°7 (same notes)."
+    },
+    {
+      "name": "Bridge",
+      "bars": "Fm | % | Ab7 | Db | C | Fm | Fm Fm(maj7) | Fm7 Fm6 | Dbmaj7 | C",
+      "note": "The last four bars are the intro figure returning."
+    }
+  ],
+  "why": "A **descending line cliché in minor** (m – m(maj7) – m7 – m6), **diminished-7th passing chords**, and a 7♯9 colour.",
+  "hard_change": "**E♭6 → D°7 → C**: three new grips in two bars. Learn D°7 xx0101 as “two fingers, two open strings”.",
+  "theory": "The verse mixes major I with minor-key iv (B♭m). °7 = vii°7/V. Bridge: V/VI (A♭7) → VI (D♭) → V.",
+  "steps": [
+    "Changes alone, slowly: the intro cliché, then E♭6 → D°7 → C.",
+    "With the rhythm at 70% (about 84 bpm).",
+    "With the record (played capo 5 with C-shapes on the record; these are the no-capo grips)."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/m4.html",
+    "https://en.wikipedia.org/wiki/Michelle_(song)",
+    "https://www.jonmaclennan.com/blog/michelle-chords"
+  ]
+}

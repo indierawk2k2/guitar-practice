@@ -1,0 +1,84 @@
+{
+  "id": "harvest-moon",
+  "title": "Harvest Moon",
+  "artist": "Neil Young",
+  "level": 6,
+  "order": 4,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "D",
+  "tuning": "D A D G B E",
+  "feel": "Brushed strum, about 110 bpm (estimate)",
+  "chords": {
+    "D": "D_dropD",
+    "D6": "D6_dropD",
+    "Dmaj7": "Dmaj7_dropD",
+    "Em": "Em_dropD",
+    "G": "G_dropD_5x0003",
+    "A7sus4": "A7sus4_dropD",
+    "A7": "A7_dropD"
+  },
+  "alt_voicings": [
+    {
+      "label": "Riff up the neck",
+      "chords": [
+        "Dadd9_dropD_10",
+        "D6_over_9_dropD_11",
+        "Dmaj7_dropD_9"
+      ],
+      "note": "the guitartabs.cc version of the riff"
+    }
+  ],
+  "form": [
+    "Riff",
+    "Verse, first half",
+    "Verse, second half",
+    "Chorus",
+    "Riff",
+    "Verse, second half",
+    "Chorus",
+    "Riff"
+  ],
+  "sections": [
+    {
+      "name": "Riff",
+      "bars": "D D6 Dmaj7 D6",
+      "repeat": 4,
+      "note": "D → D6 → Dmaj7 is an inner line A → B → C♯; rhythm approximate, follow the record."
+    },
+    {
+      "name": "Verse, first half",
+      "bars": "Em | % | % | % | D | % | % | %",
+      "repeat": 2
+    },
+    {
+      "name": "Verse, second half",
+      "bars": "G | % | % | % | D | % | % | %",
+      "repeat": 2,
+      "note": "The harmonica solo uses this same pattern."
+    },
+    {
+      "name": "Chorus",
+      "bars": "A7sus4 | % | A7 | %",
+      "repeat": 2,
+      "note": "Then the riff ×4."
+    }
+  ],
+  "why": "**Drop D with moving inner voices**: the D–D6–Dmaj7 riff is pure voice leading, and a 6/9 colour up the neck.",
+  "hard_change": "**Going in and out of the riff** at the end of each 4-bar chord.",
+  "theory": "ii–I–IV–I verse; V7sus4–V7 chorus; the riff is an inner line on the I chord.",
+  "steps": [
+    "Retune to drop D. The riff alone, slowly, then Em ↔ riff.",
+    "With the strum at 70% (about 77 bpm).",
+    "With the record (outro: riff ×4, ending on D)."
+  ],
+  "tips": [
+    "One chart lists Em7 and G6 for Em and G — optional colours."
+  ],
+  "sources": [
+    "https://heartwoodguitar.com/chords/harvest-moon-neil-young",
+    "https://www.guitartabsexplorer.com/young-neil/harvest-moon-crd",
+    "https://www.guitartabs.cc/tabs/n/neil_young/harvest_moon_tab.html"
+  ]
+}

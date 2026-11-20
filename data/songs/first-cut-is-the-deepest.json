@@ -1,0 +1,52 @@
+{
+  "id": "first-cut-is-the-deepest",
+  "title": "The First Cut Is the Deepest",
+  "artist": "Cat Stevens",
+  "level": 1,
+  "order": 3,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "G",
+  "tempo": 95,
+  "feel": "Strummed eighths with a pushed “and” of 2",
+  "chords": {
+    "G": "G_open2",
+    "D": "D_open",
+    "C": "C_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Colour",
+      "chords": [
+        "Cadd9_open",
+        "Dsus4_open"
+      ],
+      "note": "G → Cadd9 → Dsus4 → D, keeping ring and little fingers anchored on strings 2–1"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "G | D | C | D"
+    },
+    {
+      "name": "Verse & chorus (cycle)",
+      "bars": "G | D | C | D",
+      "note": "Verses and choruses ride the same G–D–C–D cycle; follow the record for how many times."
+    }
+  ],
+  "why": "A **pivot-finger economy** drill: G, Cadd9 and Dsus4 share the same 3rd-fret anchor on the top two strings.",
+  "hard_change": "None of the changes is hard; the work is **keeping the voicings consistent** — same G grip, same anchor, every time.",
+  "theory": "I–V–IV–V in G. Covers move it: Sheryl Crow plays it in D, Rod Stewart in C.",
+  "steps": [
+    "Changes alone, slowly: G → Cadd9 → Dsus4 → D, anchor fingers never leaving the strings.",
+    "With the strum at 70% (about 66 bpm), pushing the “and” of 2.",
+    "With Cat Stevens's own recording (in G)."
+  ],
+  "caveat": "Key and chords agree across three sources, but no full section map was checked — count the cycles from the record.",
+  "sources": [
+    "https://www.andyguitar.co.uk/videos/first-cut-is-the-deepest-cat-stevens-others",
+    "https://www.musicnotes.com/l/LRKhm"
+  ]
+}

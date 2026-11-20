@@ -1,0 +1,84 @@
+{
+  "id": "here-comes-the-sun",
+  "title": "Here Comes the Sun",
+  "artist": "The Beatles",
+  "level": 1,
+  "order": 4,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "A",
+  "capo": 7,
+  "feel": "Bright fingerpick/strum hybrid, about 129 bpm (estimate)",
+  "chords": {
+    "D": "D_open",
+    "G": "G_open",
+    "A7": "A7_open",
+    "E7": "E7_open",
+    "Em7/G": "Em7_over_G_open",
+    "D/F#": "D_over_Fsharp",
+    "Em": "Em_open",
+    "F": "F_open",
+    "C": "C_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Decorations & easier F",
+      "chords": [
+        "Dsus4_open",
+        "Dsus2_open",
+        "Asus4_open",
+        "Fmaj7_open"
+      ],
+      "note": "hammer sus notes inside D and A; Fmaj7 is the easy stand-in for F"
+    }
+  ],
+  "form": [
+    "Intro / Verse",
+    "Refrain",
+    "Intro / Verse",
+    "Refrain",
+    "Intro / Verse",
+    "Refrain",
+    "Bridge",
+    "Bridge, last pass",
+    "Intro / Verse",
+    "Refrain",
+    "Refrain"
+  ],
+  "sections": [
+    {
+      "name": "Intro / Verse",
+      "bars": "D | D | G | A7",
+      "repeat": 2
+    },
+    {
+      "name": "Refrain",
+      "bars": "D | D | G | E7 | D | Em7/G . D/F# Em | D A7 | D | [7/8=2+2+3] A7",
+      "note": "Bar 6 holds three chords (rhythm approximate — follow the record). Last bar is 7/8: count 1-2, 1-2, 1-2-3. Many charts reduce bars 5–8 to D–G–A7."
+    },
+    {
+      "name": "Bridge",
+      "bars": "[11/8=3+3+3+2] F . . C . . G . . D . | [4/4] D | [7/8=2+2+3] A7",
+      "repeat": 5,
+      "note": "11/8 = 3+3+3+2 eighths: one chord per group. Then a 4/4 bar of D and a 7/8 bar of A7."
+    },
+    {
+      "name": "Bridge, last pass",
+      "bars": "[11/8=3+3+3+2] F . . C . . G . . D . | [4/4] D | A7 | % | % | %",
+      "note": "The sixth pass: the 7/8 bar becomes four 4/4 bars of A7."
+    }
+  ],
+  "why": "Bright open shapes up at the 7th fret with **sus2/sus4 hammer-ons** in a moving strum — and your first **odd meters** (11/8, 7/8), felt as long and short beats.",
+  "hard_change": "Bridge bar 1: **F → C → G → D inside one 11/8 bar**. Count 1-2-3, 1-2-3, 1-2-3, 1-2 out loud; one chord on each “1”.",
+  "theory": "Concert key A (capo 7, D shapes): I–IV–V. The bridge is ♭III–♭VII–IV–I (C G D A concert), a Mixolydian cascade; E7 is V/V.",
+  "steps": [
+    "Changes alone, slowly: the bridge chords counted 3+3+3+2, then the 7/8 bar as 2+2+3.",
+    "With the rhythm at 70% (about 90 bpm), sus hammer-ons on D and A.",
+    "With the record, capo 7. After the refrains the record has an outro; follow it by ear."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/hcts.html",
+    "https://pickuptheguitar.com/here-comes-the-sun-chords"
+  ]
+}

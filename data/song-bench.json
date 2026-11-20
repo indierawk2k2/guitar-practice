@@ -1,0 +1,16 @@
+[
+  {"title": "Between the Bars", "artist": "Elliott Smith", "mix": true, "level": "Level 4–5", "teaches": "Fingerstyle piece. Benched: key and tuning disputed (Am shapes vs F♯m vs G minor; one tab tunes down a whole step) — settle it by ear first."},
+  {"title": "Angeles", "artist": "Elliott Smith", "mix": true, "level": "Level 5–6", "teaches": "Travis picking. Benched: sources disagree on tuning/capo and on the chords."},
+  {"title": "Independence Day", "artist": "Elliott Smith", "mix": true, "level": "Level 2", "teaches": "♭VII, ♭VI and iv6 in C. Benched: no fetchable chart confirmed the chord names."},
+  {"title": "Miss Misery", "artist": "Elliott Smith", "mix": true, "level": "Level 4", "teaches": "3/4 with Dm/F, Gm7add9, A7 and A♭. Benched: charts disagree on key and chord set."},
+  {"title": "Shine a Light", "artist": "Spiritualized", "mix": true, "level": "Level 2", "teaches": "A 3/4 barre exercise (F – C – G); G as II in F gives a Lydian flavour. Both charts look like one transcription."},
+  {"title": "Dreaming", "artist": "Blondie", "mix": true, "level": "Level 1", "teaches": "D–G riff; strumming stamina. Only one chart checked."},
+  {"title": "Strange Powers", "artist": "The Magnetic Fields", "mix": true, "level": "Level 1", "teaches": "Number-system piece: verse IV–I–V, chorus ii–iii7–vi–V–I in C. Chord names need a second source."},
+  {"title": "Sweet Adeline", "artist": "Elliott Smith", "mix": true, "level": "Level 4–5", "teaches": "Key-hopping chorus (E♭–B♭–F–A♭–D♭–E). Versions differ."},
+  {"title": "Blackbird", "artist": "The Beatles", "level": "Level 3/5", "teaches": "Tenths and an open-G-string pedal, with 3/4–2/4 meter changes. Note-level voicings not yet confirmed."},
+  {"title": "Julia", "artist": "The Beatles", "level": "Level 5", "teaches": "Fingerstyle, capo 2 with C-shapes (concert D). Chord shapes not reconciled."},
+  {"title": "Wild World", "artist": "Cat Stevens", "level": "Level 1/4", "teaches": "Circle of fifths Am–D7–G–Cmaj7–F–Dm–E (Cmaj7, D7, E as V). Chart verified; not from the early-era mix."},
+  {"title": "Teen Age Riot", "artist": "Sonic Youth", "level": "Level 6", "teaches": "Alternate tunings (GABDEG and GGDDGG); two interlocking guitars make a solo version a project of its own."},
+  {"title": "Space Oddity", "artist": "David Bowie", "level": "Level 3/4", "teaches": "Fmaj7/E, E7, B♭maj9–Am(add9)–G(add9)–F. A full chart was not cross-checked."},
+  {"title": "Hey! Luciani / Cruiser's Creek", "artist": "The Fall", "mix": true, "level": "Level 6", "teaches": "Swaps to reduce the Neil Young count, if reliable charts turn up."}
+]

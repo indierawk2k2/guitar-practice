@@ -1,0 +1,38 @@
+{
+  "id": "cortez-the-killer",
+  "title": "Cortez the Killer",
+  "artist": "Neil Young & Crazy Horse",
+  "level": 5,
+  "order": 2,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "high",
+  "key": "Em",
+  "tuning": "D A D G B D",
+  "tempo": 114,
+  "feel": "Slow half-time groove (Hooktheory counts 114); a 7½-minute vamp",
+  "chords": {
+    "Em7": "Em7_ddropD",
+    "D5": "D5_ddropD",
+    "Am11": "Am11_ddropD"
+  },
+  "sections": [
+    {
+      "name": "The vamp (whole song)",
+      "bars": "Em7 | D5 | Am11 | %",
+      "note": "Repeated throughout; the solos run over the same loop. Add hammer-ons inside Em7 and on the B string over Am11."
+    }
+  ],
+  "why": "A **modal vamp with common-tone voice leading** — the open top strings hold G–B–D across all three chords — and a first altered tuning.",
+  "hard_change": "Keeping **hammer-on embellishments in time** across the 4-bar cycle.",
+  "theory": "i7–♭VII–iv7 in E Aeolian. The open D on top makes every chord a 7th or 11th.",
+  "steps": [
+    "Retune to double drop D (both E strings down to D). Changes alone, slowly.",
+    "With the rhythm at 70% (about 80 bpm), adding one hammer-on per bar.",
+    "With the record — the whole 7½ minutes."
+  ],
+  "sources": [
+    "https://www.guitartabsexplorer.com/young-neil/cortez-the-killer-crd",
+    "https://www.hooktheory.com/theorytab/view/neil-young/cortez-the-killer"
+  ]
+}

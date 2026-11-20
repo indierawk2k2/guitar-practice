@@ -1,0 +1,20 @@
+[
+  {"id": "C_caged_G5", "name": "C", "root": "C", "quality": "maj",
+   "frets": [8, 7, 5, 5, 5, 8], "fingers": "321114", "tags": ["CAGED", "G-shape", "movable"], "group": "Major",
+   "notes": "Open G moved up five frets, index finger as the nut. Few people play all six strings: use the bottom four (8-7-5-5) or the top four (5-5-5-8)."},
+  {"id": "C_caged_D10", "name": "C", "root": "C", "quality": "maj",
+   "frets": ["x", "x", 10, 12, 13, 12], "fingers": "xx1243", "tags": ["CAGED", "D-shape", "movable"], "group": "Major",
+   "notes": "Open D moved up ten frets; the index takes the place of the open D string."},
+  {"id": "A_caged_C9", "name": "A", "root": "A", "quality": "maj",
+   "frets": ["x", 12, 11, 9, 10, 9], "fingers": "x43121", "tags": ["CAGED", "C-shape", "movable"], "group": "Major",
+   "notes": "Open C moved up nine frets. Root under finger 4 on string 5."},
+  {"id": "A_caged_G2", "name": "A", "root": "A", "quality": "maj",
+   "frets": "542225", "fingers": "321114", "tags": ["CAGED", "G-shape", "movable"], "group": "Major"},
+  {"id": "A_caged_D7", "name": "A", "root": "A", "quality": "maj",
+   "frets": ["x", "x", 7, 9, 10, 9], "fingers": "xx1243", "tags": ["CAGED", "D-shape", "movable"], "group": "Major"},
+  {"id": "Am_caged_D7", "name": "Am", "root": "A", "quality": "m",
+   "frets": ["x", "x", 7, 9, 10, 8], "fingers": "xx1342", "tags": ["CAGED", "D-shape", "movable"], "group": "Minor",
+   "notes": "Open Dm moved up seven frets."},
+  {"id": "Cm_caged_D10", "name": "Cm", "root": "C", "quality": "m",
+   "frets": ["x", "x", 10, 12, 13, 11], "fingers": "xx1342", "tags": ["CAGED", "D-shape", "movable"], "group": "Minor"}
+]

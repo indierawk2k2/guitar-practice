@@ -1,0 +1,50 @@
+{
+  "id": "book-of-love",
+  "title": "The Book of Love",
+  "artist": "The Magnetic Fields",
+  "level": 1,
+  "order": 2,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "high",
+  "key": "G",
+  "feel": "Slow ballad, about 70 bpm (estimate); sparse quarter-note strum or thumb-and-fingers pluck",
+  "chords": {
+    "G": "G_open",
+    "C": "C_open",
+    "D/F#": "D_over_Fsharp"
+  },
+  "alt_voicings": [
+    {
+      "label": "Colour",
+      "chords": [
+        "G_open2",
+        "Cadd9_open",
+        "Dsus4_over_Fsharp_open"
+      ],
+      "note": "swap in for G, C and D/F♯; resolve Dsus4/F♯ to D/F♯"
+    }
+  ],
+  "sections": [
+    {
+      "name": "The loop (every section)",
+      "bars": "G | C | D/F# | G",
+      "repeat": 4,
+      "note": "The same four bars carry the whole song; play it as long as the record does."
+    }
+  ],
+  "why": "One loop for the whole song, so all your attention can go on your **first slash chord** (D/F♯) and a walking bass line.",
+  "hard_change": "**C → D/F♯** with the thumb over the neck for the F♯. Practise it as a bass line: G – (A) – F♯ – G.",
+  "theory": "I–IV–V6–I in G: the F♯ in the bass is the leading tone pulling back to G.",
+  "steps": [
+    "Changes alone, slowly: C → D/F♯ → G, thumb first, then the fingers.",
+    "With the rhythm at 70% (about 50 bpm): quarter-note strums, walking A between G and F♯.",
+    "With the record (the original in G — the covers are in other keys)."
+  ],
+  "tips": [
+    "Peter Gabriel's (capo 1) and Gavin James's (capo 3) covers are in different keys; don't use their charts."
+  ],
+  "sources": [
+    "https://www.guitartabsexplorer.com/magnetic-fields/the-book-of-love-crd"
+  ]
+}

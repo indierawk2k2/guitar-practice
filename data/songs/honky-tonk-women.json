@@ -1,0 +1,58 @@
+{
+  "id": "honky-tonk-women",
+  "title": "Honky Tonk Women",
+  "artist": "The Rolling Stones",
+  "level": 6,
+  "order": 1,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "medium",
+  "key": "G",
+  "tuning": "D G D G B D",
+  "tempo": 118,
+  "feel": "Laid-back stabs with “sus” grabs; 5-string open G (6th string off)",
+  "chords": {
+    "G": "G_openG",
+    "C/G": "C_over_G_openG5",
+    "G7": "G7_openG5",
+    "C": "C_openG",
+    "A": "A_openG5_2",
+    "D": "D_openG5_7"
+  },
+  "alt_voicings": [
+    {
+      "label": "The grab",
+      "chords": [
+        "Csus4_over_G_openG5"
+      ],
+      "note": "Keith's IV/I grab: C/G ↔ Csus4/G against the open strings"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse",
+      "bars": "G | C/G G | G | G7 | C | % | G | % | A | % | D | %",
+      "note": "Reconstructed blues-shaped layout; the exact bar counts are not verified."
+    },
+    {
+      "name": "Chorus",
+      "bars": "G C/G | G C/G | D | % | G"
+    }
+  ],
+  "why": "**Open G**: one-finger major chords and the Keith-style I → IV/I “sus” grab against open strings.",
+  "hard_change": "**Sliding the barre 5 → 7 (C → D)** cleanly at the turnaround.",
+  "theory": "I–IV–I with G7 (F natural = Mixolydian); A = V/V → D (V). Chorus I–IV6/4.",
+  "steps": [
+    "Retune to open G (D G D G B D) and take off or ignore the 6th string. Changes alone, slowly.",
+    "With the rhythm at 70% (about 83 bpm), stabs with the C/G grab.",
+    "With the record."
+  ],
+  "tips": [
+    "G7 (x00003) is not from the sources — it is the obvious open-G grip for the I7 bar."
+  ],
+  "caveat": "Tuning, key and chords agree across sources; the bar-by-bar verse layout is reconstructed — check it against the record.",
+  "sources": [
+    "https://www.jonmaclennan.com/blog/honkey-tonk-women-chords",
+    "https://www.hooktheory.com/theorytab/view/the-rolling-stones/honky-tonk-women"
+  ]
+}

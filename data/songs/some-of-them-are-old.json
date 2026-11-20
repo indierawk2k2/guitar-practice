@@ -1,0 +1,47 @@
+{
+  "id": "some-of-them-are-old",
+  "title": "Some of Them Are Old",
+  "artist": "Brian Eno",
+  "level": 4,
+  "order": 2,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "F",
+  "feel": "Slow, gentle sustained strums, about 70 bpm (estimate)",
+  "chords": {
+    "F": "F_thumb_1x321x",
+    "Faug": "Faug_thumb_1x322x",
+    "F6": "F6_thumb_1x323x",
+    "F7": "F7_thumb_1x324x",
+    "Bb/D": "Bb_over_D_x5333x",
+    "Bb": "Bb_part_A1",
+    "G": "G_3x543x",
+    "C": "C_part_A3",
+    "Csus4": "Csus4_part_A3"
+  },
+  "sections": [
+    {
+      "name": "Verse / chorus",
+      "bars": "F Faug | F6 F7 | Bb/D Bb | G C",
+      "repeat": 2
+    },
+    {
+      "name": "Instrumental",
+      "bars": "C | Csus4 | C | G | G",
+      "repeat": 4
+    }
+  ],
+  "why": "The classic **ascending line cliché** I – I+ – I6 – I7: one finger climbs C–C♯–D–E♭ on the B string. Plus a secondary dominant.",
+  "hard_change": "**F7 → B♭/D**, a jump from 1st position to the 5th fret. Look at the 5th-fret marker before you leave F7.",
+  "theory": "The line cliché turns I into V7/IV, which resolves to IV (B♭). G major is V/V → C (V).",
+  "steps": [
+    "Changes alone, slowly: F → Faug → F6 → F7, only the B-string note moving.",
+    "With the rhythm at 70% (about 50 bpm).",
+    "With the record."
+  ],
+  "caveat": "Two agreeing fan transcriptions and no published analysis — voicings vary between transcriptions; trust your ear and your teacher's version.",
+  "sources": [
+    "https://guitartabs.cc/tabs/b/brian_eno/some_of_them_are_old_crd.html"
+  ]
+}

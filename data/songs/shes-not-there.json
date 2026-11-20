@@ -1,0 +1,74 @@
+{
+  "id": "shes-not-there",
+  "title": "She's Not There",
+  "artist": "The Zombies",
+  "level": 5,
+  "order": 5,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "Am",
+  "tempo": 130,
+  "feel": "Tight, jazzy, staccato comping; half-time feel (Hooktheory counts 65); A Dorian",
+  "chords": {
+    "Am7": "Am7_open",
+    "D": "D_open",
+    "F": "F_barre_E1",
+    "A": "A_open",
+    "Dm": "Dm_open",
+    "Em": "Em_open",
+    "C": "C_open",
+    "E7": "E7_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Plain i",
+      "chords": [
+        "Am_open"
+      ],
+      "note": "Heartwood's chart writes Am; Am7 is Hooktheory's i7"
+    }
+  ],
+  "form": [
+    "Intro",
+    "Verse",
+    "Pre-chorus",
+    "Chorus",
+    "Intro",
+    "Verse",
+    "Pre-chorus",
+    "Chorus"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "Am7 D",
+      "repeat": 4
+    },
+    {
+      "name": "Verse",
+      "bars": "Am7 D | Am7 D | Am7 F | Am7 D | Am7 D | Am7 D | Am7 F | A"
+    },
+    {
+      "name": "Pre-chorus",
+      "bars": "D | Dm | Am7 Em | Am7 | D | Dm | C | E7",
+      "note": "Bar 3: Am7 and Em are short (one beat each in Heartwood's chart)."
+    },
+    {
+      "name": "Chorus",
+      "bars": "Am7 D | Am7 F | Am7 D | Am7 F | Am7 D | A | A"
+    }
+  ],
+  "why": "A **Dorian i7–IV vamp**, then switching between Dorian (D major) and Aeolian (Dm) inside one section, with a Picardy A major at cadences.",
+  "hard_change": "**Pre-chorus D → Dm → Am7** at the half-bar: only the top-string finger moves for D → Dm.",
+  "theory": "i7–IV (Dorian). The pre-chorus is IV → iv (Dorian → Aeolian), ending on V7 (E7). Cadences land on I-major (A).",
+  "steps": [
+    "Changes alone, slowly: Am7 ↔ D, then D → Dm → Am7.",
+    "With the rhythm at 70% (about 90 bpm), staccato.",
+    "With the record."
+  ],
+  "sources": [
+    "https://www.heartwoodguitar.com/chords/zombies-the-shes-not-there/?print=1",
+    "https://hooktheory.com/theorytab/view/the-zombies/shes-not-there"
+  ]
+}

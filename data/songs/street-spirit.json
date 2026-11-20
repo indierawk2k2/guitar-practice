@@ -1,0 +1,84 @@
+{
+  "id": "street-spirit",
+  "title": "Street Spirit (Fade Out)",
+  "artist": "Radiohead",
+  "level": 3,
+  "order": 4,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "Am",
+  "tempo": 138,
+  "feel": "Continuous arpeggio: bass note, then open G / open E / moving B-string note",
+  "chords": {
+    "Am": "Am_open",
+    "Asus4": "Asus4_open",
+    "Asus2": "Asus2_open",
+    "Em": "Em_open_arp",
+    "Em7": "Em7_open_arp",
+    "C/E": "C_over_E_open_arp",
+    "C": "C_open",
+    "Cadd9": "Cadd9_open_x32030",
+    "Cmaj7": "Cmaj7_open"
+  },
+  "form": [
+    "Intro",
+    "Verse",
+    "Instrumental",
+    "Verse",
+    "Instrumental",
+    "Outro"
+  ],
+  "sections": [
+    {
+      "name": "Figure 1 (Am)",
+      "bars": "[1/4] Am | Asus4 | Am | Asus2",
+      "note": "Each figure is one 4/4 bar, drawn here one beat per box. The B-string note moves 1 → 3 → 1 → 0."
+    },
+    {
+      "name": "Figure 2 (Em)",
+      "bars": "[1/4] Em | Em7 | C/E | Em"
+    },
+    {
+      "name": "Figure 3 (C)",
+      "bars": "[1/4] C | Cadd9 | C | Cmaj7"
+    },
+    {
+      "name": "Intro",
+      "bars": "Am | % | % | %",
+      "note": "From here on, Am = Figure 1, Em = Figure 2, C = Figure 3."
+    },
+    {
+      "name": "Verse",
+      "bars": "Am | Em | Am | Am | C | Em",
+      "repeat": 2
+    },
+    {
+      "name": "Instrumental",
+      "bars": "C | C | Am | Am",
+      "repeat": 2
+    },
+    {
+      "name": "Outro",
+      "bars": "C | Em | Am",
+      "repeat": 2,
+      "note": "Then a final Am figure."
+    }
+  ],
+  "why": "An arpeggio with a **moving inner voice** (sus4 → minor → sus2) under fixed fingers: voice motion inside one shape.",
+  "hard_change": "Keeping the **right-hand pattern even at 138** while the left hand changes figure. The fretting hand only ever moves one finger at a time.",
+  "theory": "i–v–III (Am–Em–C), Aeolian. Every change inside a figure is a suspension (4–3, 2–1).",
+  "steps": [
+    "Changes alone, slowly: each figure as four block chords, then arpeggiated.",
+    "With the rhythm at 70% (about 96 bpm), eighth-note arpeggio.",
+    "With the record."
+  ],
+  "tips": [
+    "Tabs call the third Em-figure chord “Em6”; with C on the B string it is really C/E. Corrected here."
+  ],
+  "sources": [
+    "https://www.guitartabs.cc/tabs/r/radiohead/street_spirit_tab_ver_2.html",
+    "https://guitartabsexplorer.com/radiohead/street-spirit-fade-out-crd",
+    "https://songbpm.com/@radiohead/street-spirit-fade-out"
+  ]
+}

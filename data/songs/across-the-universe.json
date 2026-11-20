@@ -1,0 +1,86 @@
+{
+  "id": "across-the-universe",
+  "title": "Across the Universe",
+  "artist": "The Beatles",
+  "level": 2,
+  "order": 5,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "D",
+  "feel": "Even, gently pulsing strum, about 75 bpm (estimate)",
+  "chords": {
+    "D": "D_open",
+    "F#m": "Fsharpm_barre_E2",
+    "A": "A_open",
+    "Bm": "Bm_barre_A2",
+    "Em7": "Em7_open3",
+    "A7": "A7_open",
+    "Gm": "Gm_barre_E3",
+    "G": "G_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Options",
+      "chords": [
+        "Dmaj7_open",
+        "Gm_over_D_open"
+      ],
+      "note": "Dmaj7 in the verses; Gm/D as the easy Gm"
+    }
+  ],
+  "form": [
+    "Intro",
+    "Verse",
+    "Verse′",
+    "Mantra",
+    "Refrain",
+    "Verse",
+    "Verse′",
+    "Mantra",
+    "Refrain",
+    "Verse",
+    "Verse′",
+    "Mantra",
+    "Refrain"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "D | % | F#m | % | A | %"
+    },
+    {
+      "name": "Verse",
+      "bars": "D | Bm | F#m | % | Em7 | % | A | A7"
+    },
+    {
+      "name": "Verse′",
+      "bars": "D | Bm | F#m | % | Em7 | Gm | %",
+      "note": "Seven bars: V is replaced by the borrowed iv (Gm)."
+    },
+    {
+      "name": "Mantra",
+      "bars": "D | % | % | % | A7 | %"
+    },
+    {
+      "name": "Refrain",
+      "bars": "A7 | % | % | % | G | % | D | %",
+      "repeat": 2
+    }
+  ],
+  "why": "Three minor colours in a row (Bm, F♯m, Em7) and the **iv minor** (Gm in D) as an E-shape barre.",
+  "hard_change": "**Em7 → Gm barre**. Keep the G on the top string as the common tone; land the barre on beat 1.",
+  "theory": "I–vi–iii–ii–V; Verse′ swaps V for the borrowed iv (Gm), a B♮/B♭ cross-relation. The refrain is V–IV–I.",
+  "steps": [
+    "Changes alone, slowly: Em7 → Gm, then Bm → F♯m.",
+    "With the rhythm at 70% (about 52 bpm).",
+    "With the record: tune down a half step for the *Let It Be* version (it sounds in D♭)."
+  ],
+  "tips": [
+    "The outro is the mantra over a D drone, fading."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/atu.html",
+    "https://www.guitartabsexplorer.com/beatles/across-the-universe-crd"
+  ]
+}

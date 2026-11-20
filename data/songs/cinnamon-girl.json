@@ -1,0 +1,61 @@
+{
+  "id": "cinnamon-girl",
+  "title": "Cinnamon Girl",
+  "artist": "Neil Young with Crazy Horse",
+  "level": 6,
+  "order": 5,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "medium",
+  "key": "D",
+  "tuning": "D A D G B D",
+  "feel": "Heavy riff with ringing open D strings, about 132 bpm (estimate)",
+  "chords": {
+    "D5": "D5_ddropD",
+    "Am11": "Am11_ddropD",
+    "Cadd2": "Cadd2_ddropD",
+    "G5": "G5_ddropD",
+    "Gm7": "Gm7_ddropD",
+    "Am7": "Am7_ddropD"
+  },
+  "form": [
+    "Riff 1",
+    "Verse",
+    "Riff 1",
+    "Verse",
+    "Middle 8",
+    "Verse"
+  ],
+  "sections": [
+    {
+      "name": "Riff 1",
+      "bars": "N.C. | N.C.",
+      "note": "Riff 1 is a single-note figure: read it from Howard Wright's tab."
+    },
+    {
+      "name": "Verse",
+      "bars": "D5 | Am11 | Cadd2 | G5",
+      "note": "Then riff 2, twice per verse. The solo runs over the verse chords."
+    },
+    {
+      "name": "Middle 8",
+      "bars": "Cadd2 | Am11 | Cadd2 | Am11 | Cadd2 | Am11 | Gm7 | % | Am7"
+    }
+  ],
+  "why": "**Double drop D**, one-finger 6-string barres for m7 chords (Gm7 and Am7 are a barre plus two notes), and riff-plus-chord playing.",
+  "hard_change": "**Middle-8 Gm7 → Am7**: the whole shape slides two frets at volume.",
+  "theory": "I–v–♭VII–IV over D (Mixolydian/Dorian mixture). The middle 8's iv7 → v7 (Gm7–Am7) are both borrowed minors.",
+  "steps": [
+    "Retune to double drop D. The verse chords alone, slowly.",
+    "With the rhythm at 70% (about 92 bpm).",
+    "With the record (ending riff after the solo)."
+  ],
+  "tips": [
+    "Some charts call Cadd2 “Cadd9” (same notes) and add a G/B passing chord."
+  ],
+  "caveat": "Tuning and chords are well sourced; riff 1's detail is single-source — trust your ear and your teacher's version.",
+  "sources": [
+    "https://www.hakwright.co.uk/music/tab/cinnamon.txt",
+    "https://en.wikipedia.org/wiki/Cinnamon_Girl"
+  ]
+}

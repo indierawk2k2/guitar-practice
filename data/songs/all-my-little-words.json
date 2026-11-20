@@ -1,0 +1,55 @@
+{
+  "id": "all-my-little-words",
+  "title": "All My Little Words",
+  "artist": "The Magnetic Fields",
+  "level": 2,
+  "order": 3,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "high",
+  "key": "Ab",
+  "tempo": 105,
+  "feel": "Bright strum",
+  "chords": {
+    "Ab": "Ab_barre_E4",
+    "Fm": "Fm_barre_E1",
+    "Eb": "Eb_barre_A6",
+    "Db": "Db_barre_A4"
+  },
+  "alt_voicings": [
+    {
+      "label": "Capo 1 shapes",
+      "chords": [
+        "G_open",
+        "Em_open",
+        "D_open",
+        "C_open"
+      ],
+      "note": "G Em D C with capo 1 sounds the same"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse",
+      "bars": "Ab | Fm | Eb Db | Ab",
+      "repeat": 2
+    },
+    {
+      "name": "Chorus",
+      "bars": "Eb Db | Ab",
+      "repeat": 4
+    }
+  ],
+  "why": "A **flat key away from open position**: E-shape barres (A♭, Fm) mixed with A-shape barres (E♭, D♭).",
+  "hard_change": "**E♭ (A-shape, 6th fret) → D♭ (A-shape, 4th fret)** in half a bar: keep the shape frozen and slide it two frets.",
+  "theory": "I–vi–V–IV in A♭; the chorus is V–IV–I.",
+  "steps": [
+    "Changes alone, slowly: A♭ → Fm, then E♭ → D♭ as a two-fret slide.",
+    "With the rhythm at 70% (about 74 bpm).",
+    "With the record — barre version, or capo 1 with G-shapes if the barres tire you."
+  ],
+  "sources": [
+    "https://www.guitartabs.cc/tabs/m/magnetic_fields/all_my_little_words_crd.html",
+    "https://www.hooktheory.com/theorytab/view/the-magnetic-fields/all-my-little-words"
+  ]
+}

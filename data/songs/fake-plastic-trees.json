@@ -1,0 +1,61 @@
+{
+  "id": "fake-plastic-trees",
+  "title": "Fake Plastic Trees",
+  "artist": "Radiohead",
+  "level": 3,
+  "order": 2,
+  "role": "alternate",
+  "mix": false,
+  "confidence": "medium",
+  "key": "A",
+  "feel": "Quiet acoustic strum building to full band, about 74 bpm (estimate)",
+  "chords": {
+    "A": "A_open",
+    "Asus4": "Asus4_open",
+    "Dmaj9/F#": "Dmaj9_over_Fsharp_open",
+    "E": "E_open",
+    "Dsus2": "Dsus2_open",
+    "Bm7(add11)": "Bm7add11_open",
+    "F#m": "Fsharpm_barre_E2",
+    "D": "D_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Simpler chart",
+      "chords": [
+        "Bm_barre_A2"
+      ],
+      "note": "plain F♯m, D and Bm for the colour chords"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse",
+      "bars": "A | % | % | Asus4 A | Dmaj9/F# | % | % | E | Dsus2 | A | Dsus2 | %",
+      "note": "Dmaj9/F♯ is the tab's “A/F♯”; the simple chart plays F♯m there."
+    },
+    {
+      "name": "The turn",
+      "bars": "Bm7(add11) | A",
+      "repeat": 2,
+      "note": "Two to four times; ends A – Asus4 – A. The bridge alternates Bm and A three times."
+    },
+    {
+      "name": "Outro",
+      "bars": "A | F#m | D | A"
+    }
+  ],
+  "why": "One **2nd-fret partial shape over a moving bass** (A, F♯, B): the slash-chord idea, with E and A ringing on top.",
+  "hard_change": "**A → thumb-over F♯ bass voicing** (Dmaj9/F♯). Bring the thumb over first, then drop the fingers.",
+  "theory": "I–vi–V–IV in A. The colour voicings keep E and A ringing on top as pedal tones.",
+  "steps": [
+    "Changes alone, slowly: A → Dmaj9/F♯ → E → Dsus2.",
+    "With the rhythm at 70% (about 52 bpm).",
+    "With the record; the full-band chorus repeats the same material louder."
+  ],
+  "caveat": "The tabs label sections differently; these section names are a reconciliation. Voicings vary between transcriptions — trust your ear and your teacher's version.",
+  "sources": [
+    "https://www.guitartabsexplorer.com/radiohead/fake-plastic-trees-crd",
+    "https://www.guitartabs.cc/tabs/r/radiohead/fake_plastic_trees_crd.html"
+  ]
+}

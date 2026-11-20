@@ -1,0 +1,158 @@
+---
+title: The chord-name decoder
+order: 40
+summary: A systematic way to read any chord symbol — root, quality, sevenths, sus, add, extensions, alterations, slashes — with one big lookup table.
+level: 1
+---
+<p>Chord symbols look like a pile of exceptions. They aren't. Every symbol is read left to right in the same four steps, and each step adds or changes specific intervals from Chapter 2. Learn the steps once and you can spell any chord you'll meet, then find it on the neck.</p>
+
+<h2>The four steps</h2>
+<ol>
+  <li><strong>Root:</strong> the letter and any ♯/♭ right after it. F♯m7 has root F♯.</li>
+  <li><strong>Triad quality:</strong> what happens to the 3rd and 5th. Nothing written = major.</li>
+  <li><strong>Number:</strong> 6, 7, 9, 11, 13 — which notes get stacked on top.</li>
+  <li><strong>Modifiers:</strong> sus, add, ♭5/♯5/♭9/♯9/♯11, “no3”, and a slash bass.</li>
+</ol>
+
+<h2>Step 2: the triad</h2>
+<div class="table-wrap"><table>
+<tr><th>Written</th><th>Means</th><th>Formula</th></tr>
+<tr><td>C</td><td>major</td><td>1 3 5</td></tr>
+<tr><td>Cm, Cmin, C–</td><td>minor</td><td>1 ♭3 5</td></tr>
+<tr><td>Cdim, C°</td><td>diminished</td><td>1 ♭3 ♭5</td></tr>
+<tr><td>Caug, C+</td><td>augmented</td><td>1 3 ♯5</td></tr>
+<tr><td>Csus4 (Csus)</td><td>4th replaces the 3rd</td><td>1 4 5</td></tr>
+<tr><td>Csus2</td><td>2nd replaces the 3rd</td><td>1 2 5</td></tr>
+<tr><td>C5, C(no3)</td><td>no 3rd at all</td><td>1 5</td></tr>
+</table></div>
+<p>The little <strong>m</strong> only ever touches the 3rd. In Cm7 the m makes the 3rd minor; the 7 is a separate decision.</p>
+
+{{why: Why “suspended”?}}
+<p>In older music the 4th was a note held over (suspended) from the previous chord, which then fell to the 3rd. The name stuck even when the 4th never resolves. A sus chord has no 3rd, so it's neither major nor minor — that's its open, hovering sound.</p>
+{{/why}}
+
+<h2>Step 3: sevenths — the one rule that trips everyone</h2>
+<p><strong>A plain 7 means the ♭7. “maj7” means the natural 7.</strong></p>
+<ul>
+  <li>C7 = C E G B♭ (major triad + ♭7). Called the <strong>dominant 7th</strong>.</li>
+  <li>Cmaj7 = C E G B (major triad + 7). Also written CΔ or CΔ7.</li>
+  <li>Cm7 = C E♭ G B♭ (minor triad + ♭7).</li>
+  <li>Cm(maj7) = C E♭ G B (minor triad + 7). Rare, eerie.</li>
+</ul>
+
+{{why: Why does “7” mean flat 7?}}
+<p>Build a 7th chord on the 5th note of a major key and you get the most common seventh chord in music. In C that's G B D F — and F is a <em>minor</em> 7th above G. Because this chord on the fifth degree (the “dominant”) was everywhere, it got the short name: G7. The chord with a major 7th was rarer in older music, so it got the extra label: “maj7”. The name describes the seventh's size, not the triad — which is why Cm7 has a minor 3rd and a ♭7, and Cmaj7 has a major 3rd and a natural 7.</p>
+{{/why}}
+
+{{chords: C7_open, Cmaj7_open, Cm7_barre_A3}}
+
+<h2>6 chords</h2>
+<p>A 6 adds the 6th to a triad, with no 7th: C6 = C E G A, Cm6 = C E♭ G A. Note that the 6 in Cm6 is still the <em>major</em> 6th. C6/9 adds both 6 and 9: C E G A D.</p>
+
+<h2>Extensions: 9, 11, 13</h2>
+<p>Keep stacking 3rds above the 7th and you get the 9th, 11th and 13th: the 2nd, 4th and 6th, an octave up. The rule:</p>
+<p><strong>A 9, 11 or 13 on its own implies the 7th underneath.</strong> C9 = C7 + 9 = C E G B♭ D. Cmaj9 = Cmaj7 + 9. Cm9 = Cm7 + 9.</p>
+<p><strong>“add” means no 7th.</strong> Cadd9 = C E G D — just the triad plus the 9. Compare:</p>
+<div class="table-wrap"><table>
+<tr><th>Symbol</th><th>Formula</th><th>In C</th><th>7th?</th></tr>
+<tr><td>Cadd9</td><td>1 3 5 9</td><td>C E G D</td><td>none</td></tr>
+<tr><td>C9</td><td>1 3 5 ♭7 9</td><td>C E G B♭ D</td><td>♭7</td></tr>
+<tr><td>Cmaj9</td><td>1 3 5 7 9</td><td>C E G B D</td><td>7</td></tr>
+<tr><td>Csus2</td><td>1 2 5</td><td>C D G</td><td>none, and no 3rd</td></tr>
+</table></div>
+<p>Cadd9 and Csus2 differ by one note: add9 keeps the 3rd, sus2 throws it away.</p>
+<p><strong>11ths and 13ths on guitar always leave notes out.</strong> A full C13 would be seven notes — more than six strings. In practice:</p>
+<ul>
+  <li>The <strong>5th</strong> goes first, almost always.</li>
+  <li>In a <strong>13</strong> chord the 11th is left out (it clashes with the 3rd), often the 9th too. Root, 3, ♭7, 13 is the classic shape.</li>
+  <li>In an <strong>11</strong> chord the 3rd is usually left out, for the same clash. C11 played on guitar is effectively C7sus4 with a 9th — often written B♭/C.</li>
+</ul>
+
+{{chords: C9_barre_A3, Cmaj9_barre_A3, C13_barre_A3}}
+
+<h2>Step 4: alterations</h2>
+<p>A ♭ or ♯ in front of 5, 9, 11 or 13 moves that note a half step. These mostly appear on dominant 7th chords, where they add tension that wants to resolve:</p>
+<ul>
+  <li><strong>C7♭9</strong> = C E G B♭ D♭</li>
+  <li><strong>C7♯9</strong> = C E G B♭ D♯ — the “Hendrix chord”, heard in Purple Haze and the Beatles' Taxman. A major 3rd and a ♯9 (which sounds like a minor 3rd) at once: bluesy grind.</li>
+  <li><strong>C7♭5</strong> / <strong>C7♯5</strong> (= C+7) — the 5th moved down or up.</li>
+  <li><strong>Cmaj7♯11</strong> = C E G B F♯ — the Lydian chord (Chapter 14).</li>
+  <li><strong>C7alt</strong> — “altered”: any mix of ♭5/♯5/♭9/♯9. Jazz shorthand; on a rock chart it usually means 7♯9.</li>
+</ul>
+
+<h2>Diminished, diminished 7, half-diminished</h2>
+<p>Three different chords, easily confused:</p>
+<div class="table-wrap"><table>
+<tr><th>Symbol</th><th>Formula</th><th>In C</th></tr>
+<tr><td>Cdim, C°</td><td>1 ♭3 ♭5</td><td>C E♭ G♭</td></tr>
+<tr><td>Cdim7, C°7</td><td>1 ♭3 ♭5 𝄫7</td><td>C E♭ G♭ B𝄫 (sounds as A)</td></tr>
+<tr><td>Cm7♭5, Cø, Cø7</td><td>1 ♭3 ♭5 ♭7</td><td>C E♭ G♭ B♭</td></tr>
+</table></div>
+<p>The double-flat 7 (𝄫7) is the same fret as the 6th, but it's spelled as a 7th because the chord is built in 3rds: C–E♭–G♭–B𝄫 skips a letter each time. Many rock and pop charts write “dim” when they mean dim7; if a plain triad sounds thin, try the dim7.</p>
+
+{{chords: Bdim_s5_2, Cdim7_barre_A3, Cm7b5_barre_A3}}
+
+<h2>Slash chords</h2>
+<p><strong>Chord / bass note.</strong> D/F♯ is a D chord with F♯ as its lowest note. When the bass is a chord tone it's an inversion (C/E, C/G). When it isn't, the slash creates a new sound: C/B♭ is C over a B♭ bass, which is really a C7 in third inversion. Slash chords are mostly about bass lines (Chapters 11 and 12).</p>
+
+<h2>Decoding a few real symbols</h2>
+<ul>
+  <li><strong>F♯m7♭5</strong> — root F♯; m: minor 3rd (A); 7: ♭7 (E); ♭5: C. Notes F♯ A C E.</li>
+  <li><strong>B♭maj9</strong> — root B♭; major triad B♭ D F; maj7: A; 9: C. Notes B♭ D F A C.</li>
+  <li><strong>E7♯9</strong> — E G♯ B D, plus ♯9: F𝄪 (F double-sharp), which is the same fret as G.</li>
+  <li><strong>Asus2/C♯</strong> — contradiction? sus2 removed the 3rd (C♯), and the slash puts it back in the bass. Writers do this; read it literally: A B E over a C♯ bass.</li>
+</ul>
+
+<h2>The decoder table</h2>
+<p>Every common symbol, spelled on C, with one playable shape. Shapes are stored at one root in the library; slide a movable shape until its square sits on C (string 6, fret 8 or string 5, fret 3). Scroll the table sideways on a phone.</p>
+<div class="table-wrap wide"><table>
+<tr><th>Symbol (on C)</th><th>Also written</th><th>Formula</th><th>Notes</th><th>A shape</th></tr>
+<tr><td>C</td><td>CM, Cmaj</td><td>1 3 5</td><td>C E G</td><td>{{link:chord:C_open | C open}}</td></tr>
+<tr><td>Cm</td><td>Cmin, C–</td><td>1 ♭3 5</td><td>C E♭ G</td><td>{{link:chord:Cm_barre_A3 | Cm A-shape}}</td></tr>
+<tr><td>C5</td><td>C(no3)</td><td>1 5</td><td>C G</td><td>{{link:chord:C5_barre_A3 | C5}}</td></tr>
+<tr><td>Csus2</td><td></td><td>1 2 5</td><td>C D G</td><td>{{link:chord:Csus2_open | Csus2 open}}</td></tr>
+<tr><td>Csus4</td><td>Csus</td><td>1 4 5</td><td>C F G</td><td>{{link:chord:Csus4_open | Csus4 open}}</td></tr>
+<tr><td>Cdim</td><td>C°</td><td>1 ♭3 ♭5</td><td>C E♭ G♭</td><td>{{link:chord:Bdim_s5_2 | dim triad (on B)}}</td></tr>
+<tr><td>Caug</td><td>C+, C(♯5)</td><td>1 3 ♯5</td><td>C E G♯</td><td>{{link:chord:Caug_open | Caug open}}</td></tr>
+<tr><td>C6</td><td></td><td>1 3 5 6</td><td>C E G A</td><td>{{link:chord:C6_barre_A3 | C6 A-shape}}</td></tr>
+<tr><td>Cm6</td><td>C–6</td><td>1 ♭3 5 6</td><td>C E♭ G A</td><td>{{link:chord:Cm6_barre_A3 | Cm6}}</td></tr>
+<tr><td>C6/9</td><td>C69</td><td>1 3 5 6 9</td><td>C E G A D</td><td>—</td></tr>
+<tr><td>C7</td><td>Cdom7</td><td>1 3 5 ♭7</td><td>C E G B♭</td><td>{{link:chord:C7_barre_A3 | C7 A-shape}}</td></tr>
+<tr><td>Cmaj7</td><td>CΔ, CΔ7, CM7</td><td>1 3 5 7</td><td>C E G B</td><td>{{link:chord:Cmaj7_open | Cmaj7 open}}</td></tr>
+<tr><td>Cm7</td><td>C–7, Cmin7</td><td>1 ♭3 5 ♭7</td><td>C E♭ G B♭</td><td>{{link:chord:Cm7_barre_A3 | Cm7 A-shape}}</td></tr>
+<tr><td>Cm(maj7)</td><td>C–Δ7</td><td>1 ♭3 5 7</td><td>C E♭ G B</td><td>{{link:chord:Ammaj7_open | Am(maj7) open (on A)}}</td></tr>
+<tr><td>C7sus4</td><td>C7sus</td><td>1 4 5 ♭7</td><td>C F G B♭</td><td>{{link:chord:G7sus4_barre_E3 | 7sus4 E-shape}}</td></tr>
+<tr><td>Cadd9</td><td>C(add2), Cadd2</td><td>1 3 5 9</td><td>C E G D</td><td>{{link:chord:Cadd9_open | Cadd9 open}}</td></tr>
+<tr><td>Cm(add9)</td><td>Cmadd9</td><td>1 ♭3 5 9</td><td>C E♭ G D</td><td>{{link:chord:Emadd9_open | Em(add9) open (on E)}}</td></tr>
+<tr><td>C9</td><td>C7(9)</td><td>1 3 5 ♭7 9</td><td>C E G B♭ D</td><td>{{link:chord:C9_barre_A3 | C9}}</td></tr>
+<tr><td>Cmaj9</td><td>CΔ9</td><td>1 3 5 7 9</td><td>C E G B D</td><td>{{link:chord:Cmaj9_barre_A3 | Cmaj9}}</td></tr>
+<tr><td>Cm9</td><td>C–9</td><td>1 ♭3 5 ♭7 9</td><td>C E♭ G B♭ D</td><td>{{link:chord:Cm9_barre_A3 | Cm9}}</td></tr>
+<tr><td>C11</td><td>C9sus4 ≈ B♭/C</td><td>1 (3) 5 ♭7 9 11</td><td>C G B♭ D F (no E)</td><td>—</td></tr>
+<tr><td>C13</td><td>C7(13)</td><td>1 3 5 ♭7 9 (11) 13</td><td>C E B♭ A (usual 4)</td><td>{{link:chord:C13_barre_A3 | C13}}</td></tr>
+<tr><td>C7♭9</td><td>C7(♭9)</td><td>1 3 5 ♭7 ♭9</td><td>C E G B♭ D♭</td><td>{{link:chord:Gdim7_barre_E3 | dim7 shape (no root)}}</td></tr>
+<tr><td>C7♯9</td><td>C7(♯9)</td><td>1 3 5 ♭7 ♯9</td><td>C E G B♭ D♯</td><td>{{link:chord:E7sharp9_barre_A7 | 7♯9 (on E)}}</td></tr>
+<tr><td>C7♯5</td><td>C+7, Caug7</td><td>1 3 ♯5 ♭7</td><td>C E G♯ B♭</td><td>—</td></tr>
+<tr><td>Cmaj7♯11</td><td>CΔ♯11</td><td>1 3 5 7 ♯11</td><td>C E G B F♯</td><td>—</td></tr>
+<tr><td>Cdim7</td><td>C°7</td><td>1 ♭3 ♭5 𝄫7</td><td>C E♭ G♭ B𝄫(A)</td><td>{{link:chord:Cdim7_barre_A3 | Cdim7}}</td></tr>
+<tr><td>Cm7♭5</td><td>Cø, Cø7</td><td>1 ♭3 ♭5 ♭7</td><td>C E♭ G♭ B♭</td><td>{{link:chord:Cm7b5_barre_A3 | Cm7♭5}}</td></tr>
+<tr><td>C/E</td><td></td><td>C chord, E bass</td><td>E C G</td><td>{{link:chord:C_over_E | C/E}}</td></tr>
+<tr><td>C/B♭</td><td></td><td>C chord, B♭ bass</td><td>B♭ C E G</td><td>—</td></tr>
+</table></div>
+
+{{tip: The C7♭9 trick}}
+<p>Leave the root off C7♭9 and the remaining four notes — E G B♭ D♭ — form a diminished 7th chord. So any dim7 shape built on the 3rd, 5th, ♭7 or ♭9 of a dominant chord <em>is</em> that dominant with a ♭9, minus its root. Chapter 13 uses this constantly.</p>
+{{/tip}}
+
+{{try: What to take to the guitar}}
+<ul>
+  <li>Play C, Cadd9, Csus2 and C9 back to back. Name the one note that changes each time.</li>
+  <li>Play C7 and Cmaj7 alternately and say “flat seven, natural seven”.</li>
+  <li>Pick three symbols from the table you've never played. Spell each one on paper, then find the shape.</li>
+</ul>
+{{/try}}
+
+<h2>Check yourself</h2>
+<details><summary>Spell Gmaj7 and G7. Which note differs?</summary><p>Gmaj7 = G B D F♯. G7 = G B D F. The 7th: F♯ (major 7th) vs F (minor 7th).</p></details>
+<details><summary>What's the difference between Dadd9 and D9?</summary><p>Dadd9 = D F♯ A E (no 7th). D9 = D F♯ A C E (includes the ♭7, C).</p></details>
+<details><summary>Spell Bm7♭5. Where does it occur naturally?</summary><p>B D F A. It's the chord built on the 7th degree of C major (viiø7), and the ii chord of A minor.</p></details>
+<details><summary>What does Am/G mean, and is G in the chord?</summary><p>An A minor chord (A C E) with G in the bass. G is not in Am; the bass is walking, and the combination sounds as Am7 with the 7th underneath.</p></details>

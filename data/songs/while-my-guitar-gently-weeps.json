@@ -1,0 +1,76 @@
+{
+  "id": "while-my-guitar-gently-weeps",
+  "title": "While My Guitar Gently Weeps",
+  "artist": "The Beatles",
+  "level": 3,
+  "order": 5,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "Am",
+  "feel": "Steady quarter-note pulse, about 116 bpm (estimate); bridge in A major",
+  "chords": {
+    "Am": "Am_open",
+    "Am/G": "Am_over_G",
+    "Am/F#": "Am_over_Fsharp",
+    "Fmaj7": "Fmaj7_open",
+    "G": "G_open",
+    "D": "D_open",
+    "E": "E_open",
+    "C": "C_open",
+    "A": "A_open",
+    "C#m": "Csharpm_barre_A4",
+    "F#m": "Fsharpm_barre_E2",
+    "Bm": "Bm_barre_A2"
+  },
+  "alt_voicings": [
+    {
+      "label": "Option",
+      "chords": [
+        "Am6_open"
+      ],
+      "note": "keeps A in the bass instead of F♯ (one tab's choice)"
+    }
+  ],
+  "form": [
+    "Verse a",
+    "Verse a",
+    "Verse b",
+    "Bridge",
+    "Verse a",
+    "Verse b",
+    "Verse a",
+    "Verse b",
+    "Bridge",
+    "Verse a",
+    "Verse b"
+  ],
+  "sections": [
+    {
+      "name": "Verse a",
+      "bars": "Am | Am/G | Am/F# | Fmaj7 | Am | G | D | E",
+      "note": "The 8-bar intro is verse a."
+    },
+    {
+      "name": "Verse b",
+      "bars": "Am | Am/G | Am/F# | Fmaj7 | Am | G | C | E"
+    },
+    {
+      "name": "Bridge",
+      "bars": "A | C#m | F#m | C#m | Bm | % | E | %",
+      "repeat": 2
+    }
+  ],
+  "why": "A **chromatic descending bass under a held chord** (A–G–F♯–F): the core slash-chord idea, and a bridge in the parallel major.",
+  "hard_change": "**Am/F♯ (thumb on F♯) → Fmaj7**. The Am fingers stay; the thumb lets go and the ring finger takes F on the 4th string.",
+  "theory": "i–VII–IV (major, Dorian colour)–V in A minor. The bridge shifts to A major: I–iii–vi–iii–ii–V.",
+  "steps": [
+    "Changes alone, slowly: the bass line A–G–F♯–F with the Am shape held.",
+    "With the rhythm at 70% (about 80 bpm), on-beat strums.",
+    "With the record (form: intro, verse, bridge, verse, solo verse, bridge, verse, fading outro)."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/wmggw.html",
+    "https://www.guitartabsexplorer.com/beatles/while-my-guitar-gently-weeps-crd"
+  ]
+}

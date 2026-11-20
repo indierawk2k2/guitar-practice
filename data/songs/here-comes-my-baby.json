@@ -1,0 +1,57 @@
+{
+  "id": "here-comes-my-baby",
+  "title": "Here Comes My Baby",
+  "artist": "Cat Stevens",
+  "level": 3,
+  "order": 1,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "high",
+  "key": "G",
+  "tempo": 88,
+  "feel": "Riff on top-string triads, then strummed",
+  "chords": {
+    "G": "G_tri123_root",
+    "D": "D_over_Fsharp_tri123_10",
+    "C": "C_over_E_tri123_8"
+  },
+  "alt_voicings": [
+    {
+      "label": "Open strum",
+      "chords": [
+        "G_open",
+        "D_open",
+        "C_open",
+        "Dsus4_open"
+      ],
+      "note": "the chorus adds Dsus4–D"
+    }
+  ],
+  "form": [
+    "Intro riff",
+    "Verse / chorus cycle"
+  ],
+  "sections": [
+    {
+      "name": "Intro riff",
+      "bars": "G | D | C | D",
+      "repeat": 2
+    },
+    {
+      "name": "Verse / chorus cycle",
+      "bars": "G | D | C G | D",
+      "note": "Verses cycle G–D–C–(G)–D; the chorus uses the same chords with a Dsus4–D decoration."
+    }
+  ],
+  "why": "The same **top-string triad set** as Reckoner's version A, with a G triad added — triads as a riff.",
+  "hard_change": "**G triad (12-12-10) → D triad (11-10-10)**: the 3rd-string finger slides down a fret while the 1st string stays put.",
+  "theory": "I–V–IV–V in G. G is a root-position triad; the D and C triads are 1st inversions (F♯ and E on the bottom).",
+  "steps": [
+    "Changes alone, slowly: the three triads, one per bar.",
+    "With the rhythm at 70% (about 62 bpm), the riff then open strums.",
+    "With the record (form: intro, then verse and chorus three times, no bridge)."
+  ],
+  "sources": [
+    "https://majicat.com/guitartabs/herecomesmybabyguitar.htm"
+  ]
+}

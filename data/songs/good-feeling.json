@@ -1,0 +1,49 @@
+{
+  "id": "good-feeling",
+  "title": "Good Feeling",
+  "artist": "Violent Femmes",
+  "level": 1,
+  "order": 1,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "D",
+  "tempo": 82,
+  "feel": "Gentle eighth-note strum (D–DU–UDU)",
+  "chords": {
+    "D": "D_open",
+    "A": "A_open",
+    "G": "G_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Colour",
+      "chords": [
+        "Dsus2_open",
+        "Dsus4_open",
+        "Asus4_open",
+        "Em_open"
+      ],
+      "note": "hammer the sus notes on and off inside the D and A bars; Em (vi) is the song's other chord"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse (as charted)",
+      "bars": "D | A | G | D | A",
+      "note": "The verse line both sources chart. The rest of the song uses the same chords; map the other sections by ear."
+    }
+  ],
+  "why": "A gentle, steady strum in D that lets you practise **sus2/sus4 decorations** without losing time — a stamina warm-up in the I–V–IV numbers.",
+  "hard_change": "**G → D → A** with the sus hammer-ons kept in time. Hammer Dsus4 → D on the *and* of a beat, never on the change itself.",
+  "theory": "I–V–IV–I in D, with vi (Em) as colour; entirely diatonic.",
+  "steps": [
+    "Changes alone, slowly: D → A → G → D, four beats each, adding one sus decoration per bar.",
+    "With the strum at 70% (about 58 bpm): D–DU–UDU, decorations on beat 3.",
+    "With the record: play the verse line and follow the other sections by ear."
+  ],
+  "caveat": "Only the verse line is confirmed (two sources, neither fetched in full); work out the rest of the map by ear.",
+  "sources": [
+    "https://yousician.com/chords/good-feeling/61ea31151f280a3302ef9ee4"
+  ]
+}

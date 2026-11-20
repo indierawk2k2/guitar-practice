@@ -1,0 +1,16 @@
+[
+  {"id": "Ddim7_open", "name": "Ddim7", "root": "D", "quality": "dim7",
+   "frets": "xx0101", "fingers": "xx0102", "tags": ["open", "symmetrical"],
+   "notes": "Open-position diminished 7th. Classic passing chord between D and Em7 or between C and Dm."},
+  {"id": "Fdim7_s4_3", "name": "Fdim7", "root": "F", "quality": "dim7",
+   "frets": "xx3434", "fingers": "xx1324", "tags": ["movable", "symmetrical"],
+   "notes": "The four-string dim7, root on string 4. Slide it up three frets: same chord, new inversion."},
+  {"id": "Caug_open", "name": "Caug", "root": "C", "quality": "aug",
+   "frets": "x32110", "fingers": "x32110", "tags": ["open", "symmetrical"],
+   "notes": "Open C with the G raised to G♯ on string 3."},
+  {"id": "Daug_open", "name": "Daug", "root": "D", "quality": "aug",
+   "frets": "xx0332", "fingers": "xx0231", "tags": ["open", "symmetrical"]},
+  {"id": "Bdim_s5_2", "name": "Bdim", "root": "B", "quality": "dim",
+   "frets": "x2343x", "fingers": "x1243x", "tags": ["movable"],
+   "notes": "The plain diminished triad (vii in C major), root on string 5."}
+]

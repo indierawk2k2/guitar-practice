@@ -1,0 +1,61 @@
+{
+  "id": "victoria",
+  "title": "Victoria",
+  "artist": "The Kinks / The Fall",
+  "level": 2,
+  "order": 1,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "G",
+  "feel": "Driving eighths, about 120 bpm (estimate)",
+  "chords": {
+    "G": "G_open",
+    "D": "D_open",
+    "C": "C_open",
+    "Em": "Em_open",
+    "Bm": "Bm_barre_A2"
+  },
+  "alt_voicings": [
+    {
+      "label": "Colour",
+      "chords": [
+        "Bsus2_barre_A2"
+      ],
+      "note": "fan charts' “Bm sus2” — no 3rd, so it is Bsus2"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "G | D G | C G | D G"
+    },
+    {
+      "name": "Verse",
+      "bars": "D G | C G | D G",
+      "repeat": 2,
+      "note": "The solo runs over the verse."
+    },
+    {
+      "name": "Chorus",
+      "bars": "G | D | Em | Bm | D | G"
+    },
+    {
+      "name": "Bridge",
+      "bars": "Em D | D C | Em D | D C | D G"
+    }
+  ],
+  "why": "Fast changes in G with one barre chord dropped in: the **A-shape minor barre** (Bm) at tempo.",
+  "hard_change": "**Em → Bm barre in one beat** (chorus bars 3–4). Place the index barre first, then the other three fingers together.",
+  "theory": "Chorus I–V–vi–iii–V–I. The iii (Bm) is the “minor barre on the A string” lesson.",
+  "steps": [
+    "Changes alone, slowly: Em → Bm → D, one strum each.",
+    "With the rhythm at 70% (about 84 bpm), driving eighths.",
+    "With the record (Kinks in G; check the Fall cover against your mix copy)."
+  ],
+  "caveat": "Chords are the Kinks original in G; the Fall cover's key is unverified — if it doesn't match your mix, move the shapes.",
+  "sources": [
+    "https://www.guitartabsexplorer.com/kinks/victoria-crd",
+    "https://www.kindakinks.net/discography/showsong.php?chord=422"
+  ]
+}

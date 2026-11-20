@@ -1,0 +1,77 @@
+{
+  "id": "dear-prudence",
+  "title": "Dear Prudence",
+  "artist": "The Beatles",
+  "level": 6,
+  "order": 3,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "D",
+  "tuning": "D A D G B E",
+  "feel": "Fingerpicked: thumb on the bass, fingers alternating on top; about 110 bpm (estimate)",
+  "chords": {
+    "D": "D_dropD",
+    "D/C": "D_over_C_dropD",
+    "D/B": "D_over_B_dropD",
+    "D/Bb": "D_over_Bb_dropD",
+    "Dsus4": "Dsus4_dropD",
+    "F": "F_dropD",
+    "Ab": "Ab_dropD",
+    "G": "G_dropD_4str"
+  },
+  "alt_voicings": [
+    {
+      "label": "Ethan Hein's reading",
+      "chords": [
+        "Gmaj7_over_B_dropD",
+        "Gmmaj7_over_Bb_dropD"
+      ],
+      "note": "for D/B and D/B♭: leave the 3rd string open; compare by ear"
+    }
+  ],
+  "form": [
+    "Intro",
+    "Verse loop",
+    "Verse loop",
+    "Bridge",
+    "Bridge turn",
+    "Verse loop",
+    "Verse loop"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "D | % | % | %",
+      "note": "D pedal."
+    },
+    {
+      "name": "Verse loop",
+      "bars": "D | D/C | D/B | D/Bb",
+      "note": "Descending bass D–C–B–B♭. The verse's crux moves to C – G – D (♭VII–IV–I), with Dsus4 decorations."
+    },
+    {
+      "name": "Bridge",
+      "bars": "D Dsus4 | %",
+      "note": "Repeated as on the record, then:"
+    },
+    {
+      "name": "Bridge turn",
+      "bars": "F | Ab | G | D",
+      "note": "Back into the verse loop."
+    }
+  ],
+  "why": "**Drop D**, a **descending bass under a held top**, and independent thumb/finger picking.",
+  "hard_change": "**D/B → D/B♭** while keeping the picking pattern unbroken: only the 5th-string finger moves.",
+  "theory": "I over a D pedal with a chromatic bass. ♭VII (C) gives Mixolydian colour; the bridge's F and A♭ are ♭III and ♭V.",
+  "steps": [
+    "Retune to drop D. The verse loop alone, slowly, thumb only.",
+    "With the picking pattern at 70% (Lauren Bateman teaches it at 80 bpm).",
+    "With the record."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/dp.html",
+    "https://laurenbateman.com/?p=3916",
+    "https://www.ethanhein.com/wp/2020/dear-prudence/"
+  ]
+}

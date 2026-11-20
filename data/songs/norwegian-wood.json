@@ -1,0 +1,67 @@
+{
+  "id": "norwegian-wood",
+  "title": "Norwegian Wood (This Bird Has Flown)",
+  "artist": "The Beatles",
+  "level": 5,
+  "order": 4,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "E",
+  "capo": 2,
+  "time": "3/4",
+  "feel": "3/4 with a 6/8 lilt, about 178 bpm (estimate)",
+  "chords": {
+    "D": "D_open",
+    "D/C#": "D_over_Csharp_open",
+    "C": "C_open",
+    "G": "G_open",
+    "Dm": "Dm_open",
+    "Em": "Em_open",
+    "A": "A_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Hook shapes",
+      "chords": [
+        "Dsus4_open",
+        "C_over_G"
+      ],
+      "note": "hammer melody notes on strings 2–3 over D; C/G on the hook"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro (hook over D)",
+      "bars": "D | % | % | % | % | % | % | %",
+      "repeat": 2,
+      "note": "The hook melody uses the ♭7 (C on the B string, fret 1)."
+    },
+    {
+      "name": "Verse",
+      "bars": "D | % | % | %",
+      "note": "D throughout, then the phrase-end passing chords below. Length by ear."
+    },
+    {
+      "name": "Verse phrase end",
+      "bars": "D | D/C# | D | C | G | D",
+      "note": "One chord per bar as the tab lays it out."
+    },
+    {
+      "name": "Bridge",
+      "bars": "Dm | % | % | % | G | % | % | % | Dm | % | % | % | Em | % | A | %"
+    }
+  ],
+  "why": "**Chord-melody** — a melody played inside a held chord — plus Mixolydian (♭7) and Dorian (minor i with major IV) side by side.",
+  "hard_change": "**Hook melody notes over D** without losing the 3/4 strum.",
+  "theory": "Verse is I with a melodic ♭7 (Mixolydian). Bridge i–IV (Dm–G, Dorian colour), then ii–V (Em–A) back to I.",
+  "steps": [
+    "Changes alone, slowly: D → Dsus4 → D → C-note hook, then the bridge.",
+    "With the rhythm at 70% (about 125 bpm in 3).",
+    "With the record, capo 2."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/nw.html",
+    "https://www.guitartabsexplorer.com/beatles/norwegian-wood-crd"
+  ]
+}

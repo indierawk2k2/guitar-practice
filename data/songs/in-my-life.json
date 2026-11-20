@@ -1,0 +1,68 @@
+{
+  "id": "in-my-life",
+  "title": "In My Life",
+  "artist": "The Beatles",
+  "level": 2,
+  "order": 4,
+  "role": "core",
+  "mix": false,
+  "confidence": "high",
+  "key": "A",
+  "feel": "Straight-eight strum, about 103 bpm (estimate)",
+  "chords": {
+    "A": "A_open",
+    "E": "E_open",
+    "F#m": "Fsharpm_barre_E2",
+    "A7": "A7_open",
+    "D": "D_open",
+    "Dm": "Dm_open",
+    "G": "G_open",
+    "B7": "B7_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Option",
+      "chords": [
+        "B_barre_A2"
+      ],
+      "note": "B (barre) in place of B7"
+    }
+  ],
+  "form": [
+    "Intro",
+    "Verse",
+    "Bridge",
+    "Verse",
+    "Bridge",
+    "Verse",
+    "Bridge"
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": "A | E | A | E",
+      "note": "Lennon's riff over A–E. Two bars of it also come after the first bridge."
+    },
+    {
+      "name": "Verse",
+      "bars": "A E | F#m A7 | D Dm | A",
+      "repeat": 2
+    },
+    {
+      "name": "Bridge",
+      "bars": "F#m | D | G | A | F#m | B7 | Dm | A"
+    }
+  ],
+  "why": "The **borrowed iv minor** (D → Dm) and **♭VII** (G in A) — two sounds the Beatles used everywhere — plus F♯m as an E-shape barre.",
+  "hard_change": "**F♯m barre → A7 → D → Dm**, all inside two bars. Practise D → Dm alone first: only the top string moves (2 → 1).",
+  "theory": "iv (Dm) and ♭VII (G) are borrowed from A minor; A7 is V/IV; B7 is V/V.",
+  "steps": [
+    "Changes alone, slowly: F♯m → A7 → D → Dm → A.",
+    "With the rhythm at 70% (about 72 bpm).",
+    "With the record. The third verse is the instrumental (piano) verse; the outro is the intro riff, the bridge's second line, then the riff again."
+  ],
+  "sources": [
+    "https://recmusicbeatles.com/public/files/awp/iml.html",
+    "https://www.guitartabsexplorer.com/beatles/in-my-life-crd"
+  ]
+}

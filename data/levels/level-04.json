@@ -1,0 +1,476 @@
+{
+ "id": "level-04",
+ "number": 4,
+ "title": "Tension chords",
+ "status": "First draft, written before you started Level 1. Before printing, re-tune it from your Level 3 check-in sheet and practice log: pairs, targets and tempos are best guesses.",
+ "summary": "Chords whose job is to pull somewhere: dominant 7ths and their 9, 13 and 7♯9 cousins, the diminished 7th that repeats every three frets, half-diminished and augmented — and the chromatic lines (line clichés, walking slash chords) that make plain progressions sound arranged. Something is built on a descending line cliché and a C → C7 → F secondary dominant; Say Yes walks one finger down string 4 under a held G.",
+ "goals": [
+  "Play a dim7 shape at all four of its positions, and use it as a passing chord between chords a whole step apart.",
+  "Play 9, 13, m7♭5 and 7♯9 voicings, and say what each adds to the plain chord.",
+  "Something with the record: line cliché, intro tag and the bridge in A.",
+  "Say Yes with the record (tuned down a whole step), the bass walk clean.",
+  "Name the secondary dominants and line clichés in a song you are learning."
+ ],
+ "reading": [
+  {
+   "chapter": "tension-chords",
+   "note": "week 1."
+  },
+  {
+   "chapter": "beyond-the-key",
+   "note": "week 2 — secondary dominants and line clichés."
+  },
+  {
+   "chapter": "chord-name-decoder",
+   "note": "week 3 — re-read extensions and alterations."
+  },
+  {
+   "chapter": "keep-growing",
+   "note": "week 4 — the five-minute song analysis."
+  }
+ ],
+ "songs": [
+  "something",
+  "say-yes",
+  "karma-police",
+  "some-of-them-are-old",
+  "michelle"
+ ],
+ "song_plan": "Core: **Something** (Song day weeks 1–2) and **Say Yes** (weeks 3–4); Session D plays both. Say Yes is recorded a whole step low: tune down (D G C F A D) to play along — shapes as charted. Swap a core song for an alternate when you can already play it with the record, or when its hard change is still under 15 a minute after two weeks. Alternates, easiest first: *Karma Police* (G → F♯ barre), *Some of Them Are Old* (augmented, 6 and 7 colours over F), *Michelle* (dim7, m6, a minor line cliché — the hardest song in the program so far).",
+ "weeks": 6,
+ "week_plan": [
+  {
+   "chords": "**1** C7 (x32310) ↔ F (E1): the line C → B♭ → A falls into F · **2** C → Cmaj7 → C7 → F · **3** Fdim7 shape (xx3434) at frets 3, 6, 9, 12",
+   "fretboard": "A minor pentatonic box 1, then the blues note (♭5) added",
+   "song": "Something: intro and verse",
+   "tempo": "Something 40 (60%) · Say Yes 46 (60%)"
+  },
+  {
+   "chords": "**1** E♭ (xx1343) ↔ G (320003) · **2** Am → Am(maj7)/G♯ → Am/G → D9/F♯ · **3** C → C♯°7 (xx2323) → Dm → G7",
+   "fretboard": "Box 2 (frets 7–10); connect box 1 → box 2",
+   "song": "Something: refrain and the F – E♭ – G – C tag",
+   "tempo": "Something 46 (70%) · Say Yes 54"
+  },
+  {
+   "chords": "**1** G/F (xx3003) ↔ G/E (xx2003): one finger walks string 4 · **2** G → G/F♯ → Em → D (Say Yes verse) · **3** E7 → E9 → E13 → E7♯9",
+   "fretboard": "The tritone: 3rd and ♭7 of E7, A7, D7, G7 on strings 4 and 3",
+   "song": "Say Yes: verse and turn",
+   "tempo": "Say Yes 54 (70%) → 62 · Something 53"
+  },
+  {
+   "chords": "**1** your weakest benchmark pair · **2** A → C♯m/G♯ → F♯m → A/E (Something bridge) · **3** G → G♯°7 (xx0101) → Am7 → D7",
+   "fretboard": "Secondary dominants in C: A7 → Dm, E7 → Am, D7 → G",
+   "song": "Say Yes: bridge. Both songs with the record",
+   "tempo": "Say Yes 62 → record (77) · Something record (66)"
+  }
+ ],
+ "chord_groups": [
+  {
+   "label": "Diminished and augmented",
+   "note": "a dim7 shape repeats every 3 frets",
+   "chords": [
+    "Fdim7_s4_3",
+    "Ddim7_open",
+    "Caug_open"
+   ]
+  },
+  {
+   "label": "Dominant colours and half-diminished",
+   "chords": [
+    "E9_open",
+    "C9_barre_A3",
+    "E7sharp9_barre_A7",
+    "Bm7b5_barre_A2"
+   ]
+  },
+  {
+   "label": "Something",
+   "chords": [
+    "Ammaj7_over_Gsharp_open",
+    "D9_over_Fsharp_open",
+    "Eb_part_D1",
+    "Csharpm_over_Gsharp_barre_A4"
+   ]
+  },
+  {
+   "label": "Say Yes — the bass walk under G",
+   "chords": [
+    "G_open_3x0003",
+    "G_over_F_open",
+    "G_over_E_open",
+    "G_over_Dsharp_open"
+   ]
+  }
+ ],
+ "scales": [
+  "A_minor_pent_pos1",
+  "A_minor_pent_pos2",
+  "A_blues_pos1"
+ ],
+ "exit_criteria": [
+  "Benchmarks 1–6 at target in two Session Ds in a row.",
+  "Something with the record, no stops (refrain line cliché and bridge included).",
+  "Say Yes with the record, tuned down, no stops.",
+  "Named a root, play its dim7 at two different frets within five seconds (five roots).",
+  "Say the job of each chord in Something's refrain and of C7 in the verse, without looking it up.",
+  "Chapters 11 and 13 read."
+ ],
+ "stuck": "Not every box ticked after 6 weeks? Move on anyway. Keep one song from this level (a core song or an easier alternate) as a 5-minute play-through in Level 5's Session D, and open every Level 5 Session A primer with your weakest pair until it reaches target.",
+ "skip_ahead": "Pass every benchmark cold (first attempt, no practice that day) in week 1's Session D? Go straight to Level 5.",
+ "drills": [
+  {
+   "id": "one-minute",
+   "title": "One-minute changes",
+   "instructions": "Timer at 1:00. One down-strum per chord, change, strum the other, as fast as you can while staying clean. Count clean landings only. Two rounds per pair; write the better count."
+  },
+  {
+   "id": "air-shape",
+   "title": "Air shapes",
+   "instructions": "Hand off the neck. Form the whole shape an inch above the strings, land all fingers at once, strum, check every string, lift. Ten per shape."
+  },
+  {
+   "id": "place-lift",
+   "title": "Place and lift",
+   "instructions": "Fret the shape, relax until the fingers just touch, press again. Twenty presses, one per click at 60, no strumming."
+  },
+  {
+   "id": "anchor",
+   "title": "Anchor hunt",
+   "instructions": "Before a new pair, say what stays (anchor), what slides along its string (guide) and what jumps. Then ten changes keeping anchors down. This level: C → Cmaj7 → C7 = only one finger moves each time; Am → Am(maj7)/G♯ → Am/G → D9/F♯ = the Am fingers stay, only the bass moves; G/F → G/E → G/D = little finger stays on string 1 fret 3; dim7 = the whole shape slides 3 frets."
+  },
+  {
+   "id": "change-loop",
+   "title": "Change loop",
+   "instructions": "Strum chord 1 once, change, strum chord 2 once, stop, reset. Ten clean in a row; a miss sets the count back to zero."
+  },
+  {
+   "id": "tempo-ladder",
+   "title": "Tempo ladder",
+   "instructions": "One chord per bar, four down-strums (or the song's figure). Start where it is perfect (try 50). Three clean passes: +4 bpm. A miss: −8 bpm. Write the top clean tempo in today's blank."
+  },
+  {
+   "id": "eyes-closed",
+   "title": "Eyes closed",
+   "instructions": "Make the change without looking; open your eyes after landing to check. Ten times."
+  },
+  {
+   "id": "song-loop",
+   "title": "Song loop",
+   "instructions": "Loop the two bars around the hard change in the song's own rhythm, 10 bpm under this week's tempo. Then add a bar either side. Then the whole section."
+  },
+  {
+   "id": "random-pairs",
+   "title": "Random pairs",
+   "instructions": "Write the 15 chord names from the chord page on scraps. Draw two, do one-minute changes, write the pair and count on the back of the sheet. Draw again."
+  },
+  {
+   "id": "dim-slide",
+   "title": "Diminished every three frets",
+   "instructions": "Fdim7 xx3434: play it at frets 3, 6, 9 and 12 (the whole shape up three frets each time) — the same four notes, re-stacked. One per beat at 60. Then as a passing chord, two beats each: **C** x32010 → **C♯°7** xx2323 → **Dm** xx0231 → **G7** 320001, and **G** → **G♯°7** xx0101 → **Am7** x02010 → **D7** xx0212."
+  },
+  {
+   "id": "line-cliche",
+   "title": "Line cliché",
+   "instructions": "One per bar at 60, then two beats each. **Minor:** Am x02210 → Am(maj7)/G♯ 4x2210 → Am/G 3x2210 → D9/F♯ 2x2210 (Something's refrain). **Major:** C x32010 → Cmaj7 x32000 → C7 x32310 → F 133211 (Something's verse). Sing the moving note."
+  },
+  {
+   "id": "dominant-colours",
+   "title": "Dominant colours",
+   "instructions": "Over an open low E: E7 020100 → E9 020102 → E13 020120 → E7♯9 x7678x (let the open E ring). Two bars each; say what each adds: 9 (F♯), 13 (C♯), ♯9 (G — the minor 3rd over a major chord)."
+  },
+  {
+   "id": "g-walk",
+   "title": "The Say Yes walk",
+   "instructions": "Little finger on string 1 fret 3 all the time. G 3x0003 → G/F♯ 2x0003 → … bridge: G → G/D♯ xx1003 → G/E xx2003 → G/F xx3003 → G/E → G/D xx0003. One finger walks string 4; pick the bass, then strum. One per beat at 60."
+  },
+  {
+   "id": "tritone",
+   "title": "Find the tritone",
+   "instructions": "In a dominant 7th the 3rd and ♭7 are a tritone apart. E7: G♯ (3rd) on string 4 fret 6 + D (♭7) on string 3 fret 7. Find the same pair for A7, D7 and G7. Resolve each: 3rd up a half step, ♭7 down a half step — E7's pair becomes A and C♯, notes of A."
+  },
+  {
+   "id": "box-connect",
+   "title": "Connect the boxes",
+   "instructions": "A minor pentatonic box 1 (frets 5–8) up, slide on string 3 into box 2 (frets 7–10), down box 2, back into box 1. Eighths. Then add the blues note (E♭: string 5 fret 6, string 3 fret 8)."
+  },
+  {
+   "id": "make-something",
+   "title": "Make something",
+   "instructions": "Key of C or Am. Four chords including one tension move: a dim7 passing chord, a secondary dominant (A7 before Dm, E7 before Am) or a line cliché. Loop; each pass change one thing. Write the keeper in Notes."
+  }
+ ],
+ "benchmarks": [
+  {
+   "name": "1 · C → C♯°7 → Dm → G7, two beats each, bpm",
+   "target": "80"
+  },
+  {
+   "name": "2 · Am line cliché (4 chords), one per bar, bpm",
+   "target": "66"
+  },
+  {
+   "name": "3 · C7 (x32310) ↔ F (E1), changes/min",
+   "target": "35"
+  },
+  {
+   "name": "4 · E♭ (xx1343) ↔ G, changes/min",
+   "target": "30"
+  },
+  {
+   "name": "5 · G/F ↔ G/E (Say Yes walk), changes/min",
+   "target": "40"
+  },
+  {
+   "name": "6 · Pentatonic box 1 → box 2, eighths, bpm",
+   "target": "100"
+  },
+  {
+   "name": "7 · Something with the record: stops",
+   "target": "0"
+  },
+  {
+   "name": "8 · Say Yes with the record: stops",
+   "target": "0"
+  }
+ ],
+ "checkin": [
+  "Which tension chord do you actually like the sound of — and which one would you never use?",
+  "Did tuning down for Say Yes get in the way? (yes / no)"
+ ],
+ "sessions": [
+  {
+   "name": "A",
+   "title": "Chord day",
+   "focus": "New shapes and this week's three pairs (week plan, column 1). Pair 1 is the hard one.",
+   "blocks": [
+    {
+     "minutes": 5,
+     "title": "Primer: today's shapes",
+     "instructions": "Dim7 slide at 60 (frets 3-6-9-12, 1 min). Then air shapes ×10 on both chords of pair 1. Carried a weak pair from Level 3? Change-loop it for the last minute.",
+     "drill": "dim-slide",
+     "metronome": 60
+    },
+    {
+     "minutes": 12,
+     "title": "Pair 1: the full recipe",
+     "instructions": "Anchor hunt (say what stays, slides, jumps) → slow motion ×5 → change loop to 10 clean → tempo ladder from 50, one chord per bar. A chain of chords? Ladder the whole chain. Stop at the clock.",
+     "drill": "tempo-ladder",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "minutes": 8,
+     "title": "Pairs 2 and 3",
+     "instructions": "Change loop to 10 clean on each, then one-minute changes: two rounds each. Write the better count.",
+     "drill": "one-minute",
+     "record": "Pair 2 ____ / pair 3"
+    },
+    {
+     "title": "Line clichés",
+     "instructions": "The minor (Am …) and major (C …) lines from the drill page, one per bar, then two beats each. Hum the moving note.",
+     "drill": "line-cliche",
+     "metronome": {
+      "start": 60,
+      "target": 80
+     },
+     "minutes": 5
+    },
+    {
+     "title": "Fretboard: dominant colours",
+     "instructions": "E7 → E9 → E13 → E7♯9 over the open low E, two bars each. Name the added note each time.",
+     "drill": "dominant-colours",
+     "minutes": 5
+    },
+    {
+     "minutes": 7,
+     "title": "Song: put pair 1 back in",
+     "instructions": "In this week's song section: song loop on the two bars with pair 1, then the section ×2 at this week's tempo.",
+     "songs": [
+      "something",
+      "say-yes"
+     ],
+     "drill": "song-loop"
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick A, write the minutes. In Notes: the change that felt worst today."
+    }
+   ]
+  },
+  {
+   "name": "B",
+   "title": "Fretboard day",
+   "focus": "Where tension lives on the neck: the blues note, the tritone, connected boxes, secondary dominants (week plan, column 2).",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Air shapes ×10 on the two chords of pair 1, then the change with eyes closed ×10.",
+     "drill": "eyes-closed"
+    },
+    {
+     "title": "Find the tritone",
+     "instructions": "3rd and ♭7 of E7, A7, D7 and G7 on strings 4 and 3, each resolved by half steps into its I chord.",
+     "drill": "tritone",
+     "record": "Pairs found",
+     "minutes": 8
+    },
+    {
+     "title": "This week's scale",
+     "instructions": "Week 1 box 1 (+ blues note), week 2 box 2, weeks 3–4 box 1 → box 2 connected. Say the root at every square. Quarters at 60, then eighths on the tempo ladder.",
+     "scales": [
+      "A_minor_pent_pos1",
+      "A_minor_pent_pos2",
+      "A_blues_pos1"
+     ],
+     "drill": "box-connect",
+     "metronome": {
+      "start": 60,
+      "target": 100
+     },
+     "minutes": 9
+    },
+    {
+     "title": "Passing and secondary chords",
+     "instructions": "Dim7 as a passing chord (C → C♯°7 → Dm → G7; G → G♯°7 → Am7 → D7), two beats each. Then in C: C – A7 – Dm – G7 and C – E7 – Am – D7 – G7, saying which chord each 7th points at.",
+     "drill": "dim-slide",
+     "metronome": {
+      "start": 60,
+      "target": 80
+     },
+     "minutes": 9
+    },
+    {
+     "title": "Song by numbers: Something",
+     "instructions": "Verse in C: I, Imaj7, I7 (= V7 of IV), IV, II (D), V. Refrain: vi with the line cliché, then ♭VII (E♭). Play verse and refrain ×2 at this week's tempo, then the verse in G by numbers: G Gmaj7 G7 C A D.",
+     "songs": [
+      "something"
+     ],
+     "drill": "line-cliche",
+     "metronome": {
+      "start": 40,
+      "target": 66
+     },
+     "minutes": 12
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick B, write the minutes. Notes: what on the fretboard is still slow."
+    }
+   ]
+  },
+  {
+   "name": "C",
+   "title": "Song day",
+   "focus": "Longest song block: isolate this week's hard change (pair 1), then play the section and the song in time. Weeks 1–2 Something, weeks 3–4 Say Yes (tune down a whole step to play with the record).",
+   "blocks": [
+    {
+     "minutes": 4,
+     "title": "Primer",
+     "instructions": "Place-and-lift ×20 and air shapes ×10 on the two chords of pair 1.",
+     "drill": "place-lift"
+    },
+    {
+     "minutes": 8,
+     "title": "The hard change",
+     "instructions": "Change loop to 10 clean, then tempo ladder one chord per bar from 50.",
+     "drill": "change-loop",
+     "metronome": {
+      "start": 50,
+      "target": 84
+     }
+    },
+    {
+     "title": "Fretboard: name the jobs",
+     "instructions": "Read this week's section. Above each chord write its number and, for any chord outside the key, its job: secondary dominant, borrowed, passing, line cliché.",
+     "scales": [
+      "A_minor_pent_pos1"
+     ],
+     "minutes": 4
+    },
+    {
+     "minutes": 18,
+     "title": "This week's song",
+     "instructions": "Song loop round the hard change (5 min). The week's section ×3 at this week's tempo. Then the whole form without stopping — fumble through. Weeks 3–4: the last 5 minutes with the record.",
+     "songs": [
+      "something",
+      "say-yes"
+     ],
+     "drill": "song-loop",
+     "metronome": {
+      "start": 40,
+      "target": 77
+     },
+     "record": "Stops in the whole form"
+    },
+    {
+     "minutes": 8,
+     "title": "The other core song",
+     "instructions": "Once through at this week's tempo for it. Mark any bar that broke and give it one song loop.",
+     "songs": [
+      "say-yes",
+      "something"
+     ]
+    },
+    {
+     "minutes": 3,
+     "title": "Log",
+     "instructions": "Log page: tick C, write the minutes. Notes: the bar where you stopped, if any."
+    }
+   ]
+  },
+  {
+   "name": "D",
+   "title": "Mix and measure",
+   "focus": "Short versions of everything, the benchmarks with numbers, one review from Level 3, and five minutes of your own music.",
+   "blocks": [
+    {
+     "minutes": 3,
+     "title": "Primer",
+     "instructions": "Air shapes ×5 on every chord in benchmarks 3–5. The tests are taken cold.",
+     "drill": "air-shape"
+    },
+    {
+     "minutes": 12,
+     "title": "Benchmarks",
+     "instructions": "One-minute changes, one round each: **3** C7 ↔ F · **4** E♭ ↔ G · **5** G/F ↔ G/E. Tempo ladder from 60 for **1** C → C♯°7 → Dm → G7, **2** the Am line cliché and **6** box 1 → box 2 in eighths. Write all six numbers in the log.",
+     "drill": "one-minute",
+     "scales": [
+      "A_minor_pent_pos2"
+     ]
+    },
+    {
+     "minutes": 5,
+     "title": "Review from Level 3",
+     "instructions": "Triad climb in G (strings 1-2-3) and nearest inversion G – Em – C – D, then one-minute changes G/D 7-8-7 ↔ C/E 9-8-8 — or the pair you carried from Level 3.",
+     "record": "Count"
+    },
+    {
+     "minutes": 17,
+     "title": "Songs, measured",
+     "instructions": "Something, then Say Yes (tuned down) — with the record from week 3, at this week's tempo before that. Write benchmarks 7 and 8 in the log.",
+     "songs": [
+      "something",
+      "say-yes"
+     ],
+     "record": "Stops: Something ____ / Say Yes"
+    },
+    {
+     "minutes": 5,
+     "title": "Make something",
+     "instructions": "C or Am: four chords with one tension move (dim7 passing chord, secondary dominant or line cliché). Loop, change one thing per pass, write the keeper in Notes.",
+     "drill": "make-something"
+    },
+    {
+     "minutes": 3,
+     "title": "Log and exit check",
+     "instructions": "Tick D in the log. Tick any exit box you passed today. Week 6 or all boxes ticked? Fill in the check-in sheet."
+    }
+   ]
+  }
+ ]
+}

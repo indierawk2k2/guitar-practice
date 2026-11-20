@@ -1,0 +1,52 @@
+{
+  "id": "on-some-faraway-beach",
+  "title": "On Some Faraway Beach",
+  "artist": "Brian Eno",
+  "level": 5,
+  "order": 1,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "G",
+  "feel": "Slow, building, piano-led, about 70 bpm (estimate); whole-note strums or slow arpeggio",
+  "chords": {
+    "C": "C_open",
+    "G": "G_open",
+    "F": "F_barre_E1",
+    "D": "D_open",
+    "A": "A_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Softer colour",
+      "chords": [
+        "Fmaj7_open"
+      ],
+      "note": "for F"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Main phrase",
+      "bars": "C | G | F | D G",
+      "repeat": 2
+    },
+    {
+      "name": "Third phrase",
+      "bars": "C | G | F | A | D G",
+      "note": "The A (V/V) variant."
+    }
+  ],
+  "why": "**Modal mixture**: ♭VII (F) next to V (D) and V/V (A) in one loop — hear Mixolydian against major.",
+  "hard_change": "**F barre → A → D** in consecutive bars.",
+  "theory": "IV–I–♭VII–V–I in G; the A is V/V.",
+  "steps": [
+    "Changes alone, slowly: F → A → D → G.",
+    "With the rhythm at 70% (about 50 bpm), whole-note strums.",
+    "With the record."
+  ],
+  "caveat": "A piano song reduced for guitar; two simple fan charts agree — voicings are yours to choose.",
+  "sources": [
+    "https://www.ukulele-tabs.com/uke-songs/brian-eno/on-some-far-away-beach-uke-tab-7290.html"
+  ]
+}

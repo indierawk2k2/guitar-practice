@@ -1,0 +1,14 @@
+[
+  {"id": "D_major_dadgad_neck", "name": "D major in DADGAD — frets 0–12",
+   "scale": "Major", "root": "D", "formula": "1 2 3 4 5 6 7",
+   "layout": "neck", "frets": [0, 12], "labels": "intervals", "tuning": "D A D G A D",
+   "description": "Three strings are tuned to D and two to A, so roots and 5ths are everywhere — including all the open strings."},
+  {"id": "D_major_dropD_neck", "name": "D major in drop D — frets 0–12",
+   "scale": "Major", "root": "D", "formula": "1 2 3 4 5 6 7",
+   "layout": "neck", "frets": [0, 12], "labels": "notes", "tuning": "D A D G B E",
+   "description": "Only string 6 changes: every note on it is two frets higher than in standard tuning, and its open string is now the root."},
+  {"id": "G_major_openG_neck", "name": "G major triad in open G — frets 0–12",
+   "scale": "Arpeggio", "root": "G", "formula": "1 3 5",
+   "layout": "neck", "frets": [0, 12], "labels": "intervals", "tuning": "D G D G B D",
+   "description": "Open G: every string is a note of the G chord, so a straight barre at any fret is a major chord."}
+]

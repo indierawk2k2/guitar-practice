@@ -1,0 +1,43 @@
+{
+  "id": "here-come-the-warm-jets",
+  "title": "Here Come the Warm Jets",
+  "artist": "Brian Eno",
+  "level": 6,
+  "order": 2,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "Eb",
+  "detune": 1,
+  "feel": "Layered, repeating electric guitars (instrumental), about 4 minutes",
+  "chords": {
+    "E5": "E5_open",
+    "B5": "B5_E7",
+    "F#5": "Fsharp5_E2",
+    "G#5": "Gsharp5_E4",
+    "A5": "A5_E5"
+  },
+  "sections": [
+    {
+      "name": "Main loop",
+      "bars": "E5 | B5 | F#5 G#5 | A5",
+      "note": "Shapes named in E; with the guitar tuned down they sound in E♭."
+    },
+    {
+      "name": "Turnaround",
+      "bars": "F#5 G#5 | B5 | F#5 G#5 | B5"
+    }
+  ],
+  "why": "**Half-step-down tuning** and **building a multi-part arrangement**: loop the rhythm (record it or use a pedal) and play the slide lines over it.",
+  "hard_change": "**F♯5 → G♯5 → A5** in a bar and a half at full volume.",
+  "theory": "I–V–II–III–IV: the major II and III roots give a Lydian lift, implied only (power chords).",
+  "steps": [
+    "Tune down a half step. The loop alone, slowly.",
+    "With the rhythm at 70%, then the lead lines: guitar 3 slides 14–11–9–7–4–7, guitar 4 slides 9–7–5–2–5.",
+    "With the record, layering parts over your own loop."
+  ],
+  "caveat": "Only one tab states the tuning; the progression agrees across both sources.",
+  "sources": [
+    "https://www.guitartabs.cc/tabs/b/brian_eno/here_come_the_warm_jets_tab.html"
+  ]
+}

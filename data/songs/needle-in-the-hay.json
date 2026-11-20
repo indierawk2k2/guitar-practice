@@ -1,0 +1,51 @@
+{
+  "id": "needle-in-the-hay",
+  "title": "Needle in the Hay",
+  "artist": "Elliott Smith",
+  "level": 3,
+  "order": 3,
+  "role": "alternate",
+  "mix": true,
+  "confidence": "medium",
+  "key": "Am",
+  "tempo": 114,
+  "feel": "Relentless, tight eighth-note strum",
+  "chords": {
+    "F/C": "F_over_C",
+    "Am": "Am_open",
+    "C": "C_open",
+    "E": "E_open"
+  },
+  "alt_voicings": [
+    {
+      "label": "Other F grips",
+      "chords": [
+        "F_barre_E1",
+        "F_open"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse",
+      "bars": "F/C | Am | F/C | C | E | Am | F/C | Am | F/C | E | Am"
+    },
+    {
+      "name": "Chorus",
+      "bars": "Am | C | F/C | Am"
+    }
+  ],
+  "why": "**F/C** — a slash chord that keeps C in the bass under F — and holding a drone-like feel at speed.",
+  "hard_change": "**F/C → E at tempo** (verse bars 9–10). The index lifts off the barre; the ring and little fingers drop one string.",
+  "theory": "Aeolian i–VI in A minor with V (E major, the harmonic-minor dominant).",
+  "steps": [
+    "Changes alone, slowly: F/C → Am → F/C → E.",
+    "With the rhythm at 70% (about 80 bpm), tight eighths.",
+    "With the record."
+  ],
+  "caveat": "The harmony agrees across sources but the best-fetched tab is poorly rated, and the picked intro figure is unverified.",
+  "sources": [
+    "https://www.guitartabsexplorer.com/smith-elliott/needle-in-the-hay-crd",
+    "https://www.hooktheory.com/theorytab/view/elliott-smith/needle-in-the-hay"
+  ]
+}
