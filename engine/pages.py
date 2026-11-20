@@ -8,8 +8,10 @@ from html import escape
 from . import components as C
 from . import theory as T
 
-# The named drills of Learn chapter 7; a level drill with one of these ids is marked "(Ch. 7)".
-CH7_DRILLS = {"one-minute", "air-shape", "place-lift", "slow-motion", "anchor", "bass-first", "leave-early",
+# The named drills of the "Changing chords" Learn chapter; a level drill with one of these ids is marked
+# "(Ch. N)", N being that chapter's current position in the Learn sequence.
+DRILLS_CHAPTER = "changing-chords"
+NAMED_DRILLS = {"one-minute", "air-shape", "place-lift", "slow-motion", "anchor", "bass-first", "leave-early",
               "change-loop", "tempo-ladder", "eyes-closed", "barre-pulse", "random-pairs", "song-loop"}
 
 NAV = [("home", "index.html", "Home"), ("learn", "learn/index.html", "Learn"),
@@ -419,6 +421,8 @@ class SiteWriter:
                 % (escape(kicker), table, songs, self._exit_list(lv), self._rules(lv)))
 
     def drills_sheet(self, lv, kicker):
+        num = next((n + 1 for n, c in enumerate(self.chapters) if c["slug"] == DRILLS_CHAPTER), None)
+        tag = ("(Ch. %d)" % num) if num else "(Learn)"
         items = []
         for d in lv["drills"]:
             extra = []
@@ -430,13 +434,13 @@ class SiteWriter:
             if m:
                 extra.append("Metronome " + " → ".join(str(x) for x in (m.get("start"), m.get("target")) if x))
             items.append('<li><strong>%s</strong>%s %s%s</li>'
-                         % (escape(d["title"]), ' <span class="drill-id">(Ch. 7)</span>' if d["id"] in CH7_DRILLS else "",
+                         % (escape(d["title"]), (' <span class="drill-id">%s</span>' % tag) if d["id"] in NAMED_DRILLS else "",
                             C.inline(d["instructions"]),
                             ('<br><span class="muted">%s</span>' % escape(" · ".join(extra))) if extra else ""))
         return ('<section class="sheet drills-sheet"><p class="kicker">%s</p><h2>Drills</h2>'
                 '<p class="muted">The session pages name these drills; this is exactly how to do each one at this level. '
-                '(Ch. 7) = one of the named drills in Learn chapter 7.</p><ol class="drills">%s</ol></section>'
-                % (escape(kicker), "".join(items)))
+                '%s = one of the named drills in the Learn chapter on changing chords.</p><ol class="drills">%s</ol></section>'
+                % (escape(kicker), tag, "".join(items)))
 
     def session_sheet(self, lv, s, kicker):
         drills = {d["id"]: d for d in lv["drills"]}

@@ -337,7 +337,7 @@ for lyrics and unknown fields are rejected.
 | `steps` | no | List of strings: a suggested way to learn the song, printed as a numbered list ("Changes alone, slowly", "With the rhythm at 70%", "With the record"). |
 | `sources` | no | List of URLs. Shown small at the bottom of the web page only — **not printed**. |
 | `detune` | no | Semitones the *whole guitar* is tuned down (1–3), e.g. `2` = D G C F A D. The chords stay ordinary standard-tuning shapes (validated and named as shapes, like with a capo); the page says "Tune down a whole step (D G C F A D); shapes as written". Set `key` to the key you hear. For other tunings (drop D, open G…) use `tuning` instead. |
-| `alt_voicings` | no | Extra chord rows next to the main one, each `{"label": "Riff version B", "chords": ["C_spread542_3", …], "note": "optional"}`: colour chords, a second way to play a riff, a simplification. The chords need not appear in the bars, and must be in the song's tuning. |
+| `alt_voicings` | no | Extra chord rows next to the main one, each `{"label": "Decorations", "chords": ["Dsus4_open", …], "note": "optional"}`: colour chords, a second way to play a riff, a simplification. The chords need not appear in the bars, and must be in the song's tuning. |
 
 ### Bar syntax (`bars`)
 
@@ -447,13 +447,13 @@ A, B, C, D, in that order, each exactly 45 minutes** (sum of block minutes).
 | `goals` | yes | List of strings (overview page). |
 | `exit_criteria` | yes | "Ready to move on when…" — 4–6 checkable items, printed as a checklist (on the week-plan page if the level has one, otherwise on the overview and the log page). |
 | `status` | no | One line shown in a bar under the title, e.g. "First draft — re-tune from the Level 2 check-in". |
-| `reading` | no | Learn chapters to read that month, in order: a chapter slug (`"changing-chords"`) or `{"chapter": slug, "note": "week 1 — …"}`. Validated against the chapters; printed as "Ch. 7 Changing chords — note" with a tick box. |
+| `reading` | no | Learn chapters to read that month, in order: a chapter slug (`"changing-chords"`) or `{"chapter": slug, "note": "week 1 — …"}`. Validated against the chapters; printed as "Ch. 8 Changing chords — note" (the number is the chapter's current position, computed at build time) with a tick box. |
 | `song_plan` | no | When to switch from a core song to an alternate (printed on the week-plan page). |
 | `week_plan` | no | List of weeks (row 1 = week 1), each `{"chords", "fretboard", "song", "tempo"}` (strings; `tempo` optional; `**bold**` allowed). Printed as the week-by-week table. Sessions say "this week's pair / scale / section" and the table supplies it, so the same four pages stay fresh for a month. At most `weeks` rows; extra log weeks get a "repeat the last row" note. |
 | `chord_groups` | no | `[{"label", "chords", "note"?}]`: the curated chord reference, printed group by group (4 large diagrams per row). Any chord a drill or block uses that is not in a group is added under "Also in the sessions". |
 | `stuck`, `skip_ahead` | no | The rules for "still not there after 6 weeks" and "too easy", printed under the exit checklist. |
 | `checkin` | no | Extra level-specific questions for the check-in sheet. |
-| `drills` | no | Reusable exercises `{id, title, instructions, chords?, scales?, metronome?}`; printed on their own Drills page(s); blocks point at them with `"drill": "<id>"`. Drill ids are local to the level. A drill whose id is one of Learn chapter 7's named drills (`one-minute`, `air-shape`, `place-lift`, `slow-motion`, `anchor`, `bass-first`, `leave-early`, `change-loop`, `tempo-ladder`, `eyes-closed`, `barre-pulse`, `random-pairs`, `song-loop`) is marked "(Ch. 7)"; keep its title the chapter's name. |
+| `drills` | no | Reusable exercises `{id, title, instructions, chords?, scales?, metronome?}`; printed on their own Drills page(s); blocks point at them with `"drill": "<id>"`. Drill ids are local to the level. A drill whose id is one of the named drills in the "Changing chords" chapter (`one-minute`, `air-shape`, `place-lift`, `slow-motion`, `anchor`, `bass-first`, `leave-early`, `change-loop`, `tempo-ladder`, `eyes-closed`, `barre-pulse`, `random-pairs`, `song-loop`) is marked "(Ch. N)" with that chapter's current number (computed, so inserting a chapter never needs a fix here); keep its title the chapter's name. |
 | `benchmarks` | no | `{name, target}` rows of the log page's benchmark table and the check-in sheet (target is text: `"30"`, `"84 bpm"`). Session D measures them. |
 | `chords`, `scales`, `songs` | no | Extra ids to include on the reference pages. `songs` is also the overview's song list (with Core/Alternate from each song's `role`). |
 | `weeks` | no | Rows in the practice log, benchmark columns and the "Week 1 2 3 …" strip on each session page (default 4; the six levels use 6 so a stuck level has room). |

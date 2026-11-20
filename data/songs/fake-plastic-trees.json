@@ -2,13 +2,13 @@
   "id": "fake-plastic-trees",
   "title": "Fake Plastic Trees",
   "artist": "Radiohead",
-  "level": 3,
-  "order": 2,
-  "role": "alternate",
+  "level": 1,
+  "order": 4,
+  "role": "core",
   "mix": false,
   "confidence": "medium",
   "key": "A",
-  "feel": "Quiet acoustic strum building to full band, about 74 bpm (estimate)",
+  "feel": "Quiet acoustic strum building to full band; slow, about 74 bpm (estimate)",
   "chords": {
     "A": "A_open",
     "Asus4": "Asus4_open",
@@ -25,35 +25,35 @@
       "chords": [
         "Bm_barre_A2"
       ],
-      "note": "plain F♯m, D and Bm for the colour chords"
+      "note": "plain F♯m, D and Bm for the colour chords — a fallback, not the goal"
     }
   ],
   "sections": [
     {
-      "name": "Verse",
+      "name": "Section A (the verse)",
       "bars": "A | % | % | Asus4 A | Dmaj9/F# | % | % | E | Dsus2 | A | Dsus2 | %",
       "note": "Dmaj9/F♯ is the tab's “A/F♯”; the simple chart plays F♯m there."
     },
     {
-      "name": "The turn",
+      "name": "Section B (the turn)",
       "bars": "Bm7(add11) | A",
       "repeat": 2,
-      "note": "Two to four times; ends A – Asus4 – A. The bridge alternates Bm and A three times."
+      "note": "×2 to ×4 by ear, ending A – Asus4 – A. The bridge is these two bars ×3."
     },
     {
       "name": "Outro",
       "bars": "A | F#m | D | A"
     }
   ],
-  "why": "One **2nd-fret partial shape over a moving bass** (A, F♯, B): the slash-chord idea, with E and A ringing on top.",
-  "hard_change": "**A → thumb-over F♯ bass voicing** (Dmaj9/F♯). Bring the thumb over first, then drop the fingers.",
-  "theory": "I–vi–V–IV in A. The colour voicings keep E and A ringing on top as pedal tones.",
+  "why": "Slow, forgiving, and built on one idea: **one 2nd-fret grip held while the bass moves under it** — open A, then the thumb's F♯, then the index's B — with sus4 and sus2 colours one finger away. Every new move is small; the tempo gives you time to make it.",
+  "hard_change": "**A → Dmaj9/F♯.** Finger A index–middle–ring; keep middle and ring on strings 3–2, lift the index, wrap the thumb over to string 6 fret 2 (its tip mutes string 5). Thumb first, then strum.",
+  "theory": "I–vi–V–IV in A (A, F♯, E, D); Bm7(add11) is ii. Dmaj9/F♯ stands in for F♯m; the colour voicings keep E and A ringing on top as pedal tones.",
   "steps": [
-    "Changes alone, slowly: A → Dmaj9/F♯ → E → Dsus2.",
-    "With the rhythm at 70% (about 52 bpm).",
-    "With the record; the full-band chorus repeats the same material louder."
+    "The grip alone: A → Dmaj9/F♯ → A → Bm7(add11) → A, the middle finger never leaving string 3.",
+    "Section A at about 52 (70%), four slow down-strums a bar; then section B.",
+    "A and B in the record's order at 60–67, then with the record: the band gets louder, your part stays the same."
   ],
-  "caveat": "The tabs label sections differently; these section names are a reconciliation. Voicings vary between transcriptions — trust your ear and your teacher's version.",
+  "caveat": "Tabs label this song's sections differently; “Section A” and “Section B” here are a reconciliation, and the harmony agrees across sources (only the chord names differ). Voicings vary between transcriptions — trust your ear and your teacher's version.",
   "sources": [
     "https://www.guitartabsexplorer.com/radiohead/fake-plastic-trees-crd",
     "https://www.guitartabs.cc/tabs/r/radiohead/fake_plastic_trees_crd.html"

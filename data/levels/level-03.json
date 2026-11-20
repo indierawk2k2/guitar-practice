@@ -33,10 +33,9 @@
   "street-spirit",
   "while-my-guitar-gently-weeps",
   "here-comes-my-baby",
-  "fake-plastic-trees",
   "needle-in-the-hay"
  ],
- "song_plan": "Core: **Street Spirit** (Song day weeks 1–2) and **While My Guitar Gently Weeps** (weeks 3–4); Session D plays both. If top-string triads feel foreign in week 1, use *Here Comes My Baby* (the gentlest triad riff) for Session A's song block that week. Swap a core song for an alternate when you can already play it with the record, or when its hard change is still under 15 a minute after two weeks. Alternates, easiest first: *Here Comes My Baby* (top-string triads), *Fake Plastic Trees* (thumb-over Dmaj9/F♯), *Needle in the Hay* (F/C at 114).",
+ "song_plan": "Core: **Street Spirit** (Song day weeks 1–2) and **While My Guitar Gently Weeps** (weeks 3–4); Session D plays both. If top-string triads feel foreign in week 1, use *Here Comes My Baby* (the gentlest triad riff) for Session A's song block that week. Swap a core song for an alternate when you can already play it with the record, or when its hard change is still under 15 a minute after two weeks. Alternates, easiest first: *Here Comes My Baby* (top-string triads), *Needle in the Hay* (F/C at 114).",
  "weeks": 6,
  "week_plan": [
   {
@@ -112,7 +111,7 @@
   "While My Guitar Gently Weeps with the record: the verse bass walk and the A-major bridge clean.",
   "Any major or minor triad called from Level 2's chord-call list found on strings 1-2-3 in all three inversions within ten seconds.",
   "A natural minor (fret 5) and A minor pentatonic box 1 in eighths at 100.",
-  "Chapters 10 and 12 read."
+  "Chapters 11 and 13 read."
  ],
  "stuck": "Not every box ticked after 6 weeks? Move on anyway. Keep one song from this level (a core song or an easier alternate) as a 5-minute play-through in Level 4's Session D, and open every Level 4 Session A primer with your weakest pair until it reaches target.",
  "skip_ahead": "Pass every benchmark cold (first attempt, no practice that day) in week 1's Session D? Go straight to Level 4.",
@@ -175,7 +174,7 @@
   {
    "id": "key-triads",
    "title": "Triads up the key",
-   "instructions": "G major, all in first inversion on strings 1-2-3: G/B 4-3-3 · Am 5-5-5 · Bm 7-7-7 · C 9-8-8 · D 11-10-10 · Em 12-12-12 · F♯° 14-13-14 · G 16-15-15. One per beat, saying I ii iii IV V vi vii° I. (The middle four are the Reckoner riff.)"
+   "instructions": "G major, all in first inversion on strings 1-2-3: G/B 4-3-3 · Am 5-5-5 · Bm 7-7-7 · C 9-8-8 · D 11-10-10 · Em 12-12-12 · F♯° 14-13-14 · G 16-15-15. One per beat, saying I ii iii IV V vi vii° I."
   },
   {
    "id": "bass-walk",

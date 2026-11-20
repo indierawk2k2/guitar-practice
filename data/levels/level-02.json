@@ -52,7 +52,7 @@
     "Across the Universe with the record (or the metronome at 75), no stops.",
     "All 12 notes found on string 6 and then string 5 in 60 seconds or less.",
     "Any chord from the chord-call list played as an E-shape and as an A-shape within three seconds of reading it.",
-    "Chapters 8, 9 and 11 read."
+    "Chapters 9, 10 and 12 read."
   ],
   "stuck": "Not every box ticked after 6 weeks? Move on anyway. Keep one song from this level (a core song or an easier alternate) as a 5-minute play-through in Level 3's Session D, and open every Level 3 Session A primer with your weakest pair until it reaches target.",
   "skip_ahead": "Pass every benchmark cold (first attempt, no practice that day) in week 1's Session D? Go straight to Level 3.",
@@ -187,7 +187,7 @@
         "instructions": "One-minute changes, one round each: **1** Bm ↔ F♯m · **2** Em7 ↔ Gm · **3** F♯m ↔ A7 · **4** B7 ↔ Dm · **5** Gm7 ↔ C7. Root finding, timed. A major position (fret 5) in eighths, tempo ladder from 70. Write all seven numbers in the log.",
         "drill": "one-minute", "scales": ["G_major_pos_E"]},
        {"minutes": 5, "title": "Review from Level 1",
-        "instructions": "One-minute changes on Emaj7/G♯ (466450) ↔ Em/G (322000) — or the pair you carried from Level 1. Then the Reckoner bridge once with the record (chart in the Level 1 packet).",
+        "instructions": "One-minute changes on A ↔ Dmaj9/F♯ (thumb, 2x0220) — or the pair you carried from Level 1. Then Fake Plastic Trees once with the record (chart in the Level 1 packet).",
         "record": "Count"},
        {"minutes": 17, "title": "Songs, measured",
         "instructions": "In My Life, then Across the Universe — with the record from week 3, at this week's tempo before that. Write benchmarks 8 and 9 in the log.",

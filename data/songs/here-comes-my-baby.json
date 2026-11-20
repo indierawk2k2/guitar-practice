@@ -43,7 +43,7 @@
       "note": "Verses cycle G–D–C–(G)–D; the chorus uses the same chords with a Dsus4–D decoration."
     }
   ],
-  "why": "The same **top-string triad set** as Reckoner's version A, with a G triad added — triads as a riff.",
+  "why": "**Top-string triads as a riff**: C and D in first inversion (9-8-8, 11-10-10) and a root-position G (12-12-10), all on strings 3-2-1.",
   "hard_change": "**G triad (12-12-10) → D triad (11-10-10)**: the 3rd-string finger slides down a fret while the 1st string stays put.",
   "theory": "I–V–IV–V in G. G is a root-position triad; the D and C triads are 1st inversions (F♯ and E on the bottom).",
   "steps": [
